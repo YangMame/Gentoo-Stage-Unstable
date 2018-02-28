@@ -1,0 +1,138 @@
+dir /etc
+dir /etc/env.d
+obj /etc/env.d/30gnupg 72efd4c7aa0bf7e5816ac7adff4bbdcb 1519793972
+dir /usr
+dir /usr/lib
+dir /usr/lib/systemd
+dir /usr/lib/systemd/user
+obj /usr/lib/systemd/user/gpg-agent.socket bf0fa55f8a38c201a2c1e763f8b204c8 1519793972
+obj /usr/lib/systemd/user/gpg-agent-ssh.socket 8a14288974bcc6ccec327af227892531 1519793972
+obj /usr/lib/systemd/user/gpg-agent-extra.socket d4ae84ec812069b7fc6d91f9f2d8278c 1519793972
+obj /usr/lib/systemd/user/gpg-agent-browser.socket 43a51a805e48ebb00a82ce0928cb0ff5 1519793972
+obj /usr/lib/systemd/user/dirmngr.socket 55070b8cf2347282d1baf97eb90ca319 1519793972
+obj /usr/lib/systemd/user/gpg-agent.service b94c1a39f6d95db9a5b9449f48ef067f 1519793972
+obj /usr/lib/systemd/user/dirmngr.service afc0df12b440b550f103ab08ec71e9b8 1519793972
+dir /usr/sbin
+obj /usr/sbin/applygnupgdefaults e971c231d6702a0830829570c08845cf 1519793971
+obj /usr/sbin/addgnupghome c37db03d23fb2c0fb791d270138f9b68 1519793971
+dir /usr/libexec
+obj /usr/libexec/gpg-check-pattern bdb4bd77fc4af5fb2fe47ce8fbf5cd71 1519793972
+obj /usr/libexec/gpg-wks-client 4c6119c88b98cb58e5a9154b23244c87 1519793972
+obj /usr/libexec/dirmngr_ldap 0154ea0c24460f74938958a269bc014c 1519793972
+obj /usr/libexec/scdaemon 5ab29267f2df4ba6d4078cbbfda5859b 1519793972
+obj /usr/libexec/gpg-protect-tool f41a4fd1fb35f51f46bb2a61a0f847e3 1519793972
+obj /usr/libexec/gpg-preset-passphrase 7cd96daef98bab75856747ee092df21d 1519793972
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/gnupg-2.2.5
+obj /usr/share/doc/gnupg-2.2.5/KEYSERVER.bz2 93958e4f6813a98ed92ca36e573fd88f 1519793972
+obj /usr/share/doc/gnupg-2.2.5/OpenPGP.bz2 391ba0ead202f00303e5beb8c35cac46 1519793972
+obj /usr/share/doc/gnupg-2.2.5/TRANSLATE.bz2 7ddc1424d7eedc3e22ad19f2cf475a4e 1519793972
+obj /usr/share/doc/gnupg-2.2.5/HACKING.bz2 dfb71ed3fcb5348990f1f23d416de6ee 1519793972
+obj /usr/share/doc/gnupg-2.2.5/DETAILS.bz2 a80bc967988c741252652982e3928683 1519793972
+obj /usr/share/doc/gnupg-2.2.5/FAQ.bz2 2fb94f4c9f56b35bdf86a734a0dfea42 1519793972
+obj /usr/share/doc/gnupg-2.2.5/TODO.bz2 5caa62e270029f1deb6be2b2d9d1a819 1519793972
+obj /usr/share/doc/gnupg-2.2.5/THANKS.bz2 5f392d55adcbf1c524a6d58ada282b6a 1519793972
+obj /usr/share/doc/gnupg-2.2.5/README.bz2 2c31f64ac2ce82881a58f23291a419c1 1519793972
+obj /usr/share/doc/gnupg-2.2.5/NEWS.bz2 a972062292d5657d6adafb7684741f77 1519793972
+obj /usr/share/doc/gnupg-2.2.5/ChangeLog.bz2 0a99ced2443fa3c255fa24fd5e6ea9f4 1519793972
+obj /usr/share/doc/gnupg-2.2.5/DCO.bz2 bc0638c79cd22c9ec5a17ef6563a0a48 1519793971
+obj /usr/share/doc/gnupg-2.2.5/VERSION c150b9352393aaa2a286bfbfbaf2c6c2 1519793972
+dir /usr/share/doc/gnupg-2.2.5/examples
+obj /usr/share/doc/gnupg-2.2.5/examples/pwpattern.list.bz2 07e23bac0fe25047427158185fbd61fc 1519793971
+obj /usr/share/doc/gnupg-2.2.5/examples/gpgconf.conf.bz2 0b6a8dac0cefc9031e24768c9acc1436 1519793971
+obj /usr/share/doc/gnupg-2.2.5/examples/debug.prf.bz2 01d32d98f31484f05a8bac22ef592d61 1519793971
+obj /usr/share/doc/gnupg-2.2.5/examples/vsnfd.prf.bz2 a998d54cc808292fb85724fba87eafed 1519793971
+obj /usr/share/doc/gnupg-2.2.5/examples/trustlist.txt.bz2 6f132ee96a052fc175040286d2990bc7 1519793971
+obj /usr/share/doc/gnupg-2.2.5/examples/scd-event.bz2 6c6978296079d9a421cf6c55c78865e4 1519793971
+obj /usr/share/doc/gnupg-2.2.5/examples/README.bz2 6e40fdb349610f8ae9367bf80257921f 1519793971
+dir /usr/share/doc/gnupg-2.2.5/examples/systemd-user
+obj /usr/share/doc/gnupg-2.2.5/examples/systemd-user/gpg-agent-extra.socket.bz2 63f63ffa4ba9227eb16d6c556cc49777 1519793971
+obj /usr/share/doc/gnupg-2.2.5/examples/systemd-user/gpg-agent-browser.socket.bz2 5128538f8dc218973b39f62a3254cfe5 1519793971
+obj /usr/share/doc/gnupg-2.2.5/examples/systemd-user/gpg-agent-ssh.socket.bz2 f28967febdcd4b9cf02655f0ffd95fa2 1519793971
+obj /usr/share/doc/gnupg-2.2.5/examples/systemd-user/gpg-agent.socket.bz2 c2cd7b2796b59f39ab15bee47d2fcd82 1519793971
+obj /usr/share/doc/gnupg-2.2.5/examples/systemd-user/gpg-agent.service.bz2 c8bea65b641610a57cf72828e9340098 1519793971
+obj /usr/share/doc/gnupg-2.2.5/examples/systemd-user/dirmngr.socket.bz2 d1b09b7e8cb4a5266865e0f70bcad8e1 1519793971
+obj /usr/share/doc/gnupg-2.2.5/examples/systemd-user/dirmngr.service.bz2 1bd615098e57ae431b34eb6728c0eb61 1519793971
+obj /usr/share/doc/gnupg-2.2.5/examples/systemd-user/README.bz2 7f78b68d354390b6b25d018dba69c446 1519793971
+dir /usr/share/info
+obj /usr/share/info/gnupg.info-2.bz2 b05a829bd2da26e96ad71da5524a80b3 1519793971
+obj /usr/share/info/gnupg.info-1.bz2 635073d635407011e4e31bd0bfd975a9 1519793971
+obj /usr/share/info/gnupg.info.bz2 656afc37987f9ee68737fa272e11053c 1519793971
+dir /usr/share/man
+dir /usr/share/man/man7
+obj /usr/share/man/man7/gnupg.7.bz2 3af26c98f664a899ad527487a11db29d 1519793971
+dir /usr/share/man/man1
+obj /usr/share/man/man1/gpgv.1.bz2 68a4c74f542ea1963c87959ee687ebb8 1519793971
+obj /usr/share/man/man1/gpg.1.bz2 1ca5225ad49a9e54002fc688025457cd 1519793971
+obj /usr/share/man/man1/dirmngr-client.1.bz2 12398c0979b5d4ab366c45edf06408f3 1519793971
+obj /usr/share/man/man1/gpg-wks-server.1.bz2 e47a992e27daa05ff455eb0447086fba 1519793971
+obj /usr/share/man/man1/gpg-wks-client.1.bz2 c8c05781cf579002b2d81462da94004f 1519793971
+obj /usr/share/man/man1/gpgtar.1.bz2 4d16a4767cd79f71a2d849697448f8a7 1519793971
+obj /usr/share/man/man1/symcryptrun.1.bz2 e1fc870eee195154d74f26ce67bbb882 1519793971
+obj /usr/share/man/man1/gpgparsemail.1.bz2 8decbe6231e1dec015bd1b889bb37cfc 1519793971
+obj /usr/share/man/man1/gpg-connect-agent.1.bz2 4ac80a9d5d4da7880cad875b50374fb6 1519793971
+obj /usr/share/man/man1/gpg-preset-passphrase.1.bz2 692f37df4d495014d52ba11ec8feb158 1519793971
+obj /usr/share/man/man1/gpgconf.1.bz2 bd5ffd689074c2b426c3ddf20fea5949 1519793971
+obj /usr/share/man/man1/watchgnupg.1.bz2 d6b3b45d216b5e56c924bfcd8ca5f237 1519793971
+obj /usr/share/man/man1/scdaemon.1.bz2 987d8bf7baaade31a49c88045421c482 1519793971
+obj /usr/share/man/man1/gpg-agent.1.bz2 a9380241d1037860cd5af942e1916ef0 1519793971
+obj /usr/share/man/man1/gpgsm.1.bz2 7053d03f00d31e40d653fb22a923097b 1519793971
+obj /usr/share/man/man1/gpgv2.1 4abc9f4c1bd428f81c4e1d366b754bdf 1519793972
+obj /usr/share/man/man1/gpg2.1 b0357192f1cea58b53d32a9762979193 1519793972
+dir /usr/share/man/man8
+obj /usr/share/man/man8/applygnupgdefaults.8.bz2 e4426e36e41c262b0ebbb855cc18df95 1519793971
+obj /usr/share/man/man8/addgnupghome.8.bz2 fbf1da024fd94332f588804fdc84f93b 1519793971
+obj /usr/share/man/man8/dirmngr.8.bz2 89286fa15a684df2b3b1997a26eed136 1519793971
+dir /usr/share/locale
+dir /usr/share/locale/zh_CN
+dir /usr/share/locale/zh_CN/LC_MESSAGES
+obj /usr/share/locale/zh_CN/LC_MESSAGES/gnupg2.mo b7e153bc24399abcd868bf76a364c496 1519793971
+dir /usr/share/gnupg
+obj /usr/share/gnupg/help.zh_TW.txt 09070448c470b393724830a851a923c8 1519793971
+obj /usr/share/gnupg/help.zh_CN.txt 32711126514e9b5d9263a69ffd99349f 1519793971
+obj /usr/share/gnupg/help.tr.txt 220682465372281151e7e40b546c546f 1519793971
+obj /usr/share/gnupg/help.sv.txt 14a267cde4ab3ba9bf15d6bac9eddff5 1519793971
+obj /usr/share/gnupg/help.sk.txt fff59cd28f183572140170cf47690016 1519793971
+obj /usr/share/gnupg/help.ru.txt 0ddc84a27580324f65f9fbdbab03c724 1519793971
+obj /usr/share/gnupg/help.ro.txt 89a6fc0dd0a8fb7b259d5e62ec50d35d 1519793971
+obj /usr/share/gnupg/help.pt_BR.txt 38e773675d99ef7a40c459d68022641a 1519793971
+obj /usr/share/gnupg/help.pt.txt 493b0ec423cfdc2fc8656d448b652da6 1519793971
+obj /usr/share/gnupg/help.pl.txt 934c96dc3271ebcc317f2e10258cafef 1519793971
+obj /usr/share/gnupg/help.nb.txt 14a267cde4ab3ba9bf15d6bac9eddff5 1519793971
+obj /usr/share/gnupg/help.ja.txt c9bbaeccdb6cedf36a4605777b159265 1519793971
+obj /usr/share/gnupg/help.it.txt 621e06d2432cab3609494cbb7e6fb78b 1519793971
+obj /usr/share/gnupg/help.id.txt 10fc1f64cb3db5f7644f76e7c0116b44 1519793971
+obj /usr/share/gnupg/help.hu.txt 27846e504b7ee16691d74fa767a94964 1519793971
+obj /usr/share/gnupg/help.gl.txt 14a267cde4ab3ba9bf15d6bac9eddff5 1519793971
+obj /usr/share/gnupg/help.fr.txt 31483ae33be515f71e55ffdd02a91053 1519793971
+obj /usr/share/gnupg/help.fi.txt 2f1c09676d19e0665a7796bbcdb43bbf 1519793971
+obj /usr/share/gnupg/help.et.txt 14a267cde4ab3ba9bf15d6bac9eddff5 1519793971
+obj /usr/share/gnupg/help.es.txt aa04475c3579b70cd782933202b57a11 1519793971
+obj /usr/share/gnupg/help.eo.txt 14a267cde4ab3ba9bf15d6bac9eddff5 1519793971
+obj /usr/share/gnupg/help.el.txt 14a267cde4ab3ba9bf15d6bac9eddff5 1519793971
+obj /usr/share/gnupg/help.de.txt 2ce363dc4f901492b3378a5890c800b1 1519793971
+obj /usr/share/gnupg/help.da.txt 14a267cde4ab3ba9bf15d6bac9eddff5 1519793971
+obj /usr/share/gnupg/help.cs.txt 14a267cde4ab3ba9bf15d6bac9eddff5 1519793971
+obj /usr/share/gnupg/help.ca.txt 14a267cde4ab3ba9bf15d6bac9eddff5 1519793971
+obj /usr/share/gnupg/help.be.txt 14a267cde4ab3ba9bf15d6bac9eddff5 1519793971
+obj /usr/share/gnupg/help.txt 8c6ef448aeff84ac79a378e154fdd2a7 1519793971
+obj /usr/share/gnupg/sks-keyservers.netCA.pem 3cfc5d2867a6672f4f629220632948f4 1519793971
+obj /usr/share/gnupg/distsigkey.gpg 91dd769026b93d3f9dead89e74ea4bb8 1519793971
+dir /usr/bin
+obj /usr/bin/gpgscm 879515ebacb019c994c38d1ffcf241aa 1519793972
+obj /usr/bin/gpgtar 7f1f1ca30a2a85635039cda71f49f189 1519793972
+obj /usr/bin/gpgparsemail 9853cafc5343341a417466d48c525b29 1519793972
+obj /usr/bin/watchgnupg e343d211a5311ad8712e7d0c5ad8c2be 1519793972
+obj /usr/bin/gpg-connect-agent 400cb88264fa360cf504b3ac482a367a 1519793972
+obj /usr/bin/symcryptrun 31e4e846872e6debce8ea3ca218073c4 1519793972
+obj /usr/bin/gpgconf bf73e9424c6753b06de9ebeaab9f7cdf 1519793972
+obj /usr/bin/dirmngr 2f2d8dacfeb9793cbb0f0fe4cad424aa 1519793972
+obj /usr/bin/dirmngr-client 8a1d28ec388b09ca6bf801e1d9d985d9 1519793972
+obj /usr/bin/gpg c5409d72a4cb5b013d5cdcef9731adea 1519793972
+obj /usr/bin/gpg-agent f4d09ef3f88a5024be893e9c6c1edaf4 1519793972
+obj /usr/bin/gpgv 6e1790994e3ed69020a709712e6a0e8e 1519793972
+obj /usr/bin/gpgsm ae1f14f7b8e623036de06c4b2571615d 1519793972
+obj /usr/bin/kbxutil 57a5466c290cf5dbaac2031bee109742 1519793972
+sym /usr/bin/gpgv2 -> gpgv 1519793972
+sym /usr/bin/gpg2 -> gpg 1519793972

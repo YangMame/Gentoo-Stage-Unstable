@@ -1,0 +1,18 @@
+dir /usr
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/pinentry-1.0.0-r2
+obj /usr/share/doc/pinentry-1.0.0-r2/TODO.bz2 dab524befd1633cdb04caa3f04d9c6fc 1519793925
+obj /usr/share/doc/pinentry-1.0.0-r2/THANKS.bz2 e1fe340a1106371ff44b8cef2450e48f 1519793925
+obj /usr/share/doc/pinentry-1.0.0-r2/README.bz2 dc5fced5a2f07adc9d6fbda0fc0ba8cd 1519793925
+obj /usr/share/doc/pinentry-1.0.0-r2/NEWS.bz2 9b0da539cdeaebdc82c59b952ede90e1 1519793925
+obj /usr/share/doc/pinentry-1.0.0-r2/ChangeLog.bz2 686fe5d7f6db9ede5b50741508f24b15 1519793925
+obj /usr/share/doc/pinentry-1.0.0-r2/AUTHORS.bz2 9bd8f3a60e14201babee5deef66256f3 1519793925
+dir /usr/share/info
+obj /usr/share/info/pinentry.info.bz2 7cc1aa8098116628eff635bafe3ed779 1519793925
+dir /usr/bin
+obj /usr/bin/pinentry-qt 7e251e79f6cd76adc1273e47997d04e1 1519793925
+obj /usr/bin/pinentry-curses f3c97e59176d7cf04a457bcd727b6ef2 1519793925
+obj /usr/bin/pinentry-tty 264b5fca23fb02665048571ce6b75a0f 1519793925
+obj /usr/bin/pinentry-gtk-2 a40788b192be816199c9b6fe0c1bb3c4 1519793925
+sym /usr/bin/pinentry-qt4 -> pinentry-qt 1519793925

@@ -1,0 +1,18 @@
+dir /usr
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/npth-1.5
+obj /usr/share/doc/npth-1.5/NEWS.bz2 df6982afb02c01e59c5c5325a20cecf1 1519782492
+obj /usr/share/doc/npth-1.5/AUTHORS.bz2 07d6a6c3d164080e8d0ae27d02d8b6c4 1519782492
+obj /usr/share/doc/npth-1.5/ChangeLog.bz2 10f3cf749b902506959ef9dca8e47ab7 1519782492
+obj /usr/share/doc/npth-1.5/README.bz2 fdc86e4c800bf4f61ffcda0e9f5237bc 1519782491
+dir /usr/share/aclocal
+obj /usr/share/aclocal/npth.m4 1d983e7a217abd65db4ccbe83e8afce5 1519782491
+dir /usr/bin
+obj /usr/bin/npth-config dae685e3d8e23142143ed0e78f9fb73f 1519782491
+dir /usr/include
+obj /usr/include/npth.h 3745e25f934cdab56ce49e02e16c3bd1 1519782491
+dir /usr/lib64
+obj /usr/lib64/libnpth.so.0.1.1 4f0eea5abaeed451dca5323e7a2b7863 1519782492
+sym /usr/lib64/libnpth.so -> libnpth.so.0.1.1 1519782491
+sym /usr/lib64/libnpth.so.0 -> libnpth.so.0.1.1 1519782491

@@ -1,0 +1,17 @@
+dir /usr
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/gtk-update-icon-cache.1.bz2 4605c851fc1929b4fa968c70d359483d 1519792948
+dir /usr/share/doc
+dir /usr/share/doc/gtk-update-icon-cache-3.22.19
+obj /usr/share/doc/gtk-update-icon-cache-3.22.19/README.bz2 c0f3fd7ae4d561ceb3c79b0d886ff4a9 1519792948
+dir /usr/share/locale
+dir /usr/share/locale/zh_CN
+dir /usr/share/locale/zh_CN/LC_MESSAGES
+obj /usr/share/locale/zh_CN/LC_MESSAGES/gtk-update-icon-cache.mo fdde242c055fda61c09b119a367a7ced 1519792948
+dir /usr/share/locale/en
+dir /usr/share/locale/en/LC_MESSAGES
+obj /usr/share/locale/en/LC_MESSAGES/gtk-update-icon-cache.mo 46351f7f478f81f934e8212de82847d0 1519792948
+dir /usr/bin
+obj /usr/bin/gtk-update-icon-cache 94a7ab7fe579762a8ba215d16a131a44 1519792949

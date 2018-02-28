@@ -1,0 +1,26 @@
+dir /usr
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/help2man-1.47.5
+obj /usr/share/doc/help2man-1.47.5/THANKS.bz2 186262c8b0dafd32a424af04312cea50 1519788093
+obj /usr/share/doc/help2man-1.47.5/README.bz2 71d001dd91eacca05281fd948e65c8cd 1519788093
+obj /usr/share/doc/help2man-1.47.5/NEWS.bz2 66e308b3e879c52b971e2d8a0a5b67ae 1519788093
+obj /usr/share/doc/help2man-1.47.5/changelog.bz2 1a9976b171ff2297ce0081b45f7b9961 1519788093
+dir /usr/share/locale
+dir /usr/share/locale/zh_CN
+dir /usr/share/locale/zh_CN/LC_MESSAGES
+obj /usr/share/locale/zh_CN/LC_MESSAGES/help2man.mo e681684df5cccd23a9d367dd84f43171 1519788093
+dir /usr/share/info
+obj /usr/share/info/help2man-zh_CN.info.bz2 b49c5ef93ad62d83393676ad1260393c 1519788093
+obj /usr/share/info/help2man.info.bz2 3da24a92824cf9c13e221e1dc2d4b858 1519788093
+dir /usr/share/man
+dir /usr/share/man/zh_CN
+dir /usr/share/man/zh_CN/man1
+obj /usr/share/man/zh_CN/man1/help2man.1.bz2 01ddf93f1cbfa3b653a7b6b48a2f8b1c 1519788093
+dir /usr/share/man/man1
+obj /usr/share/man/man1/help2man.1.bz2 8b359886ec7b1979647f22d9f0bd8aed 1519788093
+dir /usr/lib64
+dir /usr/lib64/help2man
+obj /usr/lib64/help2man/bindtextdomain.so 7d73f6aae835dc301cfcb2954820bd14 1519788094
+dir /usr/bin
+obj /usr/bin/help2man bffae6043a03baadd2934efd89a694c0 1519788093

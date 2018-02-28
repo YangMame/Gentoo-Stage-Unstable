@@ -1,0 +1,52 @@
+dir /usr
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/certifi-2017.11.5
+obj /usr/share/doc/certifi-2017.11.5/README.rst.bz2 72888eb6c604ea90b31645381133cf86 1519789756
+dir /usr/lib64
+dir /usr/lib64/python3.5
+dir /usr/lib64/python3.5/site-packages
+dir /usr/lib64/python3.5/site-packages/certifi-2017.11.5-py3.5.egg-info
+obj /usr/lib64/python3.5/site-packages/certifi-2017.11.5-py3.5.egg-info/dependency_links.txt 68b329da9893e34099c7d8ad5cb9c940 1519789755
+obj /usr/lib64/python3.5/site-packages/certifi-2017.11.5-py3.5.egg-info/top_level.txt 5ebd7f7c387ebb31c14e3c701023ac97 1519789755
+obj /usr/lib64/python3.5/site-packages/certifi-2017.11.5-py3.5.egg-info/SOURCES.txt 01ebbfae2e2d86c6166bebe047317af0 1519789755
+obj /usr/lib64/python3.5/site-packages/certifi-2017.11.5-py3.5.egg-info/not-zip-safe 68b329da9893e34099c7d8ad5cb9c940 1509888158
+obj /usr/lib64/python3.5/site-packages/certifi-2017.11.5-py3.5.egg-info/PKG-INFO 4d0d46a2c9dc529969d08464f407824d 1519789755
+dir /usr/lib64/python3.5/site-packages/certifi
+dir /usr/lib64/python3.5/site-packages/certifi/__pycache__
+obj /usr/lib64/python3.5/site-packages/certifi/__pycache__/__main__.cpython-35.opt-2.pyc 46cf00e6209248fef704363992ab9569 1519789755
+obj /usr/lib64/python3.5/site-packages/certifi/__pycache__/core.cpython-35.opt-2.pyc 5b166fcd2fe79b79b74863acc123b80c 1519789755
+obj /usr/lib64/python3.5/site-packages/certifi/__pycache__/__init__.cpython-35.opt-2.pyc 1b74b8d56b7f9df3e2d86da0420bd3d2 1519789755
+obj /usr/lib64/python3.5/site-packages/certifi/__pycache__/__main__.cpython-35.opt-1.pyc 46cf00e6209248fef704363992ab9569 1519789755
+obj /usr/lib64/python3.5/site-packages/certifi/__pycache__/core.cpython-35.opt-1.pyc a9102e01c5718fd57a783bc6220281e8 1519789755
+obj /usr/lib64/python3.5/site-packages/certifi/__pycache__/__init__.cpython-35.opt-1.pyc 1b74b8d56b7f9df3e2d86da0420bd3d2 1519789755
+obj /usr/lib64/python3.5/site-packages/certifi/__pycache__/__main__.cpython-35.pyc cea21cdd5c7f03417d9a785bba8e8a45 1519789755
+obj /usr/lib64/python3.5/site-packages/certifi/__pycache__/core.cpython-35.pyc a9102e01c5718fd57a783bc6220281e8 1519789755
+obj /usr/lib64/python3.5/site-packages/certifi/__pycache__/__init__.cpython-35.pyc a68f5e4729f6b600f3c09847467ef5f1 1519789755
+obj /usr/lib64/python3.5/site-packages/certifi/weak.pem 1e761657d51bbf94dee66be6f652054a 1509888021
+obj /usr/lib64/python3.5/site-packages/certifi/old_root.pem 5b0321dec89bba61d1e800c16198cdf0 1448881867
+obj /usr/lib64/python3.5/site-packages/certifi/cacert.pem 1cc01760cbafcf4e529891088046f957 1509888021
+obj /usr/lib64/python3.5/site-packages/certifi/__main__.py 0602925953f793522a8f653fb6cb556d 1429812772
+obj /usr/lib64/python3.5/site-packages/certifi/core.py e6e542dab553ebdb9fad2f9837911e1a 1509888056
+obj /usr/lib64/python3.5/site-packages/certifi/__init__.py d9669efe1d0b4ea389252324e29f6300 1509888156
+dir /usr/lib64/python2.7
+dir /usr/lib64/python2.7/site-packages
+dir /usr/lib64/python2.7/site-packages/certifi-2017.11.5-py2.7.egg-info
+obj /usr/lib64/python2.7/site-packages/certifi-2017.11.5-py2.7.egg-info/dependency_links.txt 68b329da9893e34099c7d8ad5cb9c940 1519789755
+obj /usr/lib64/python2.7/site-packages/certifi-2017.11.5-py2.7.egg-info/top_level.txt 5ebd7f7c387ebb31c14e3c701023ac97 1519789755
+obj /usr/lib64/python2.7/site-packages/certifi-2017.11.5-py2.7.egg-info/SOURCES.txt 01ebbfae2e2d86c6166bebe047317af0 1519789755
+obj /usr/lib64/python2.7/site-packages/certifi-2017.11.5-py2.7.egg-info/not-zip-safe 68b329da9893e34099c7d8ad5cb9c940 1509888158
+obj /usr/lib64/python2.7/site-packages/certifi-2017.11.5-py2.7.egg-info/PKG-INFO 4d0d46a2c9dc529969d08464f407824d 1519789755
+dir /usr/lib64/python2.7/site-packages/certifi
+obj /usr/lib64/python2.7/site-packages/certifi/__main__.pyo f28296a083969dbf8d469e63df2e1777 1519789755
+obj /usr/lib64/python2.7/site-packages/certifi/core.pyo e74ee991c9548b305ebf08995adb940d 1519789755
+obj /usr/lib64/python2.7/site-packages/certifi/__init__.pyo 693aa43ae413dd17811bfc4f7ab3729c 1519789755
+obj /usr/lib64/python2.7/site-packages/certifi/__main__.pyc f28296a083969dbf8d469e63df2e1777 1519789755
+obj /usr/lib64/python2.7/site-packages/certifi/core.pyc 91bf9c1130a6293c10307f3dcb0e7fad 1519789755
+obj /usr/lib64/python2.7/site-packages/certifi/__init__.pyc 693aa43ae413dd17811bfc4f7ab3729c 1519789755
+obj /usr/lib64/python2.7/site-packages/certifi/weak.pem 1e761657d51bbf94dee66be6f652054a 1509888021
+obj /usr/lib64/python2.7/site-packages/certifi/old_root.pem 5b0321dec89bba61d1e800c16198cdf0 1448881867
+obj /usr/lib64/python2.7/site-packages/certifi/cacert.pem 1cc01760cbafcf4e529891088046f957 1509888021
+obj /usr/lib64/python2.7/site-packages/certifi/__main__.py 0602925953f793522a8f653fb6cb556d 1429812772
+obj /usr/lib64/python2.7/site-packages/certifi/core.py e6e542dab553ebdb9fad2f9837911e1a 1509888056
+obj /usr/lib64/python2.7/site-packages/certifi/__init__.py d9669efe1d0b4ea389252324e29f6300 1509888156

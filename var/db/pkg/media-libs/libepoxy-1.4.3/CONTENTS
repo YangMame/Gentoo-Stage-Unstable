@@ -1,0 +1,21 @@
+dir /usr
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/libepoxy-1.4.3
+obj /usr/share/doc/libepoxy-1.4.3/README.md.bz2 f6476e256a47473d9a707c967f5e4e96 1519791798
+dir /usr/lib64
+obj /usr/lib64/libepoxy.so.0.0.0 e5fe6bffff81db04cab22d2cc739f00a 1519791799
+dir /usr/lib64/pkgconfig
+obj /usr/lib64/pkgconfig/epoxy.pc 12db1e2b0b23b6c3136526fcb2717e2e 1519791798
+obj /usr/lib64/libepoxy.la b469c6e74ad5348be6aa042f7e42a82b 1519791798
+sym /usr/lib64/libepoxy.so -> libepoxy.so.0.0.0 1519791798
+sym /usr/lib64/libepoxy.so.0 -> libepoxy.so.0.0.0 1519791798
+dir /usr/include
+dir /usr/include/epoxy
+obj /usr/include/epoxy/egl_generated.h 4de64762f86b45a8760870016f4d0ee7 1519791798
+obj /usr/include/epoxy/glx_generated.h 587086e7cfcee111e8c241fa2224b59a 1519791798
+obj /usr/include/epoxy/gl_generated.h 7e020d11a56eeb14724b063cbbbfe670 1519791798
+obj /usr/include/epoxy/glx.h 2c4f5154d8d924a0cbba5e1f781075ea 1519791798
+obj /usr/include/epoxy/egl.h 8269f65094e86ffdffd5cf4c06b4f2c9 1519791798
+obj /usr/include/epoxy/gl.h 578bba53504a9c2e90f35f8d22db7556 1519791798
+obj /usr/include/epoxy/common.h edc469f38e4dcc4b2784b20f0d2f29e1 1519791798

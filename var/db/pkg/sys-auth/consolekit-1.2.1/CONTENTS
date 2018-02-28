@@ -1,0 +1,128 @@
+dir /lib64
+dir /lib64/security
+obj /lib64/security/pam_ck_connector.so 1d9532ed4c0425149aa667c696f6e789 1519794726
+dir /lib
+dir /lib/udev
+dir /lib/udev/rules.d
+obj /lib/udev/rules.d/71-udev-seat.rules 40039c03b08f2be0e2a3856a5623e007 1519794725
+obj /lib/udev/rules.d/70-udev-acl.rules a766ed4bc0d61dacef60ec49c97910da 1519794725
+dir /var
+dir /var/log
+dir /var/log/ConsoleKit
+obj /var/log/ConsoleKit/.keep_sys-auth_consolekit-0 d41d8cd98f00b204e9800998ecf8427e 1519794725
+dir /usr
+dir /usr/bin
+obj /usr/bin/ck-history 1f2785d4b620159de7ded02bdc54f402 1519794726
+obj /usr/bin/ck-list-sessions fb38aa619efedcdf67f1a470b45192ac 1519794726
+obj /usr/bin/ck-launch-session 634479b58585259fb9d40ff13ec1bd07 1519794726
+dir /usr/lib
+dir /usr/lib/ConsoleKit
+obj /usr/lib/ConsoleKit/udev-acl e98c75cec955ab51775e639f1a0d8a18 1519794726
+obj /usr/lib/ConsoleKit/ck-remove-directory 6d1b0b4743506904d413eca7b4d7c7ba 1519794726
+obj /usr/lib/ConsoleKit/ck-get-x11-display-device 418d6341dd3a6a5e1edf122067a63d56 1519794726
+obj /usr/lib/ConsoleKit/ck-get-x11-server-pid 3f2a06f8d1afdfffa6dbc829337c1014 1519794726
+obj /usr/lib/ConsoleKit/ck-collect-session-info 83de75b9a47e5bc1f566275ed8450a35 1519794726
+dir /usr/lib/ConsoleKit/run-session.d
+obj /usr/lib/ConsoleKit/run-session.d/pam-foreground-compat.ck c038a8f9b3bcaf49c598c19c38bbd628 1519794725
+obj /usr/lib/ConsoleKit/run-session.d/.keep_sys-auth_consolekit-0 d41d8cd98f00b204e9800998ecf8427e 1519794725
+dir /usr/lib/ConsoleKit/run-seat.d
+obj /usr/lib/ConsoleKit/run-seat.d/.keep_sys-auth_consolekit-0 d41d8cd98f00b204e9800998ecf8427e 1519794725
+dir /usr/include
+dir /usr/include/ConsoleKit
+dir /usr/include/ConsoleKit/ck-connector
+obj /usr/include/ConsoleKit/ck-connector/ck-connector.h 34262472bd982bc5710e8cda03a55048 1519794725
+obj /usr/include/ConsoleKit/libconsolekit.h 54021d131edd9aaa395ff84794705390 1519794725
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/consolekit-1.2.1
+obj /usr/share/doc/consolekit-1.2.1/TODO.bz2 a477142fa78e75560d201ef862307ac2 1519794725
+obj /usr/share/doc/consolekit-1.2.1/README.bz2 480a168d19ab32261f7c41228216f257 1519794725
+obj /usr/share/doc/consolekit-1.2.1/NEWS.bz2 d7068ec6e6bbc6e4a3572f953fedfa89 1519794725
+obj /usr/share/doc/consolekit-1.2.1/HACKING.bz2 fd3977357ae04ca80c602d40f5a5b77b 1519794725
+obj /usr/share/doc/consolekit-1.2.1/AUTHORS.bz2 778a6a097c70d9a23070c3d703ed0c9e 1519794725
+dir /usr/share/man
+dir /usr/share/man/man8
+obj /usr/share/man/man8/pam_ck_connector.8.bz2 0f5ee8a54b18e47cdb3ba51cca58866f 1519794725
+dir /usr/share/man/man1
+obj /usr/share/man/man1/console-kit-daemon.1m.bz2 07ec1d654c12ec4f7313cd09de98f8ff 1519794725
+obj /usr/share/man/man1/ck-list-sessions.1.bz2 127dbf19e8d8c9f8e8b4bdee7f8a3efd 1519794725
+obj /usr/share/man/man1/ck-launch-session.1.bz2 1a12f2a5d77518f097f497d9434a063c 1519794725
+obj /usr/share/man/man1/ck-history.1.bz2 ec99efc0772660c0fba970ac2b966c0b 1519794725
+dir /usr/share/gtk-doc
+dir /usr/share/gtk-doc/html
+dir /usr/share/gtk-doc/html/libconsolekit-1.0
+obj /usr/share/gtk-doc/html/libconsolekit-1.0/libconsolekit-libconsolekit.html 6288879377d1c0b4d2a3c3396866c7d2 1519794725
+obj /usr/share/gtk-doc/html/libconsolekit-1.0/index.html 89c90feb0d0581f791440bf01a82d987 1519794725
+obj /usr/share/gtk-doc/html/libconsolekit-1.0/ch01.html 5fcf1c92547f53d894c4a189043e9cb8 1519794725
+obj /usr/share/gtk-doc/html/libconsolekit-1.0/api-index-full.html 32b7b7498745e109a9841a85d8c24495 1519794725
+obj /usr/share/gtk-doc/html/libconsolekit-1.0/api-index-deprecated.html 049f45b8e4286b1eca9ca30190c57ef5 1519794725
+obj /usr/share/gtk-doc/html/libconsolekit-1.0/api-index-1.0.html ec8a2a1f9ace5ad35bd99bee7d5419ad 1519794725
+obj /usr/share/gtk-doc/html/libconsolekit-1.0/annotation-glossary.html f0dcdee8a9d218c12a853765e84aaf76 1519794725
+obj /usr/share/gtk-doc/html/libconsolekit-1.0/libconsolekit-1.0.devhelp2 b04bf7dcc8fd22e607c2339a56f09885 1519794725
+obj /usr/share/gtk-doc/html/libconsolekit-1.0/up.png 81854a03247e9ba6981eed0b909b9c42 1519794725
+obj /usr/share/gtk-doc/html/libconsolekit-1.0/up-insensitive.png 97c742a19428c428c552a380ad9fde9f 1519794725
+obj /usr/share/gtk-doc/html/libconsolekit-1.0/style.css 7ecec4d4ad66d1ea924c1a17b492117e 1519794725
+obj /usr/share/gtk-doc/html/libconsolekit-1.0/right.png bd51fef29caa82cb560340be392b37a2 1519794725
+obj /usr/share/gtk-doc/html/libconsolekit-1.0/right-insensitive.png 987cf4ad9491f01e8db264d38098a576 1519794725
+obj /usr/share/gtk-doc/html/libconsolekit-1.0/left.png 0cc08008324009bebc947c6af6dd52c1 1519794725
+obj /usr/share/gtk-doc/html/libconsolekit-1.0/left-insensitive.png b992596e1683a40d89d15dc8dcb58c38 1519794725
+obj /usr/share/gtk-doc/html/libconsolekit-1.0/home.png 83cdd16d5fc01d8d7dfaf97df1120bc8 1519794725
+dir /usr/share/polkit-1
+dir /usr/share/polkit-1/actions
+obj /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy dcbff04c45cb01eff7a8e8457cec9335 1519794725
+dir /usr/share/gir-1.0
+obj /usr/share/gir-1.0/libconsolekit-1.0.gir cdb90548c552d9c6a3b232df220f87dd 1519794725
+dir /usr/share/dbus-1
+dir /usr/share/dbus-1/system-services
+obj /usr/share/dbus-1/system-services/org.freedesktop.ConsoleKit.service ccb18929f6cbaffc00e591421ca58922 1519794725
+dir /usr/share/dbus-1/interfaces
+obj /usr/share/dbus-1/interfaces/org.freedesktop.ConsoleKit.Session.xml 02210d88f216a2d348289b84fc0ee865 1519794725
+obj /usr/share/dbus-1/interfaces/org.freedesktop.ConsoleKit.Seat.xml cc620987e33b4635b3437c334fd29915 1519794725
+obj /usr/share/dbus-1/interfaces/org.freedesktop.ConsoleKit.Manager.xml 7b475b9bb573ee59473822f3a939dbf5 1519794725
+dir /usr/lib64
+obj /usr/lib64/libck-connector.so.0.0.0 9b9e758bcf988801d9b47c28884e6739 1519794726
+obj /usr/lib64/libconsolekit.so.1.0.0 8a1e79b8f53a230481a8caa2e5ac44c4 1519794726
+sym /usr/lib64/libck-connector.so -> libck-connector.so.0.0.0 1519794725
+sym /usr/lib64/libck-connector.so.0 -> libck-connector.so.0.0.0 1519794725
+sym /usr/lib64/libconsolekit.so -> libconsolekit.so.1.0.0 1519794725
+sym /usr/lib64/libconsolekit.so.1 -> libconsolekit.so.1.0.0 1519794725
+dir /usr/lib64/pkgconfig
+obj /usr/lib64/pkgconfig/ck-connector.pc 2e8918fbc9830160e08a2db4a7a79bdd 1519794725
+obj /usr/lib64/pkgconfig/libconsolekit.pc f22d532515cc9aa4d74394d2fbfbb18a 1519794725
+dir /usr/lib64/girepository-1.0
+obj /usr/lib64/girepository-1.0/libconsolekit-1.0.typelib 424bcc0422009af26c6ee007d3b5061a 1519794725
+dir /usr/lib64/ConsoleKit
+dir /usr/lib64/ConsoleKit/scripts
+obj /usr/lib64/ConsoleKit/scripts/ck-system-hybridsleep d79b65c17c52550f3cf69819153cd442 1519794725
+obj /usr/lib64/ConsoleKit/scripts/ck-system-hibernate 602147ee3214122665ae672f5ffefc2b 1519794725
+obj /usr/lib64/ConsoleKit/scripts/ck-system-suspend ce25da4d08c92b49bcc8d99aceed3fed 1519794725
+obj /usr/lib64/ConsoleKit/scripts/ck-system-restart 878c95855f448272de3cb6d4f0feb6ed 1519794725
+obj /usr/lib64/ConsoleKit/scripts/ck-system-stop f5ace7cc7a759275fa8efab8ce97aee9 1519794725
+dir /usr/lib64/ConsoleKit/run-seat.d
+sym /usr/lib64/ConsoleKit/run-seat.d/udev-acl.ck -> /usr/lib/ConsoleKit/udev-acl 1519794725
+dir /usr/lib64/ConsoleKit/run-session.d
+dir /usr/sbin
+obj /usr/sbin/ck-log-system-stop 524146c2506cb4d28a2abac02eafb7d4 1519794726
+obj /usr/sbin/ck-log-system-restart 636493d4f9480a1438b7ac4fe31c9205 1519794726
+obj /usr/sbin/ck-log-system-start 13a70d674cff824943a94a4e49201d9a 1519794726
+obj /usr/sbin/console-kit-daemon 895a9e9b76db77fe78ca5636d0c25439 1519794726
+dir /etc
+dir /etc/init.d
+obj /etc/init.d/consolekit 63704264bd6fca3e0d9eb9605e06dbfb 1519794725
+dir /etc/dbus-1
+dir /etc/dbus-1/system.d
+obj /etc/dbus-1/system.d/ConsoleKit.conf 15a6ef65014a90d5107120c33ff9a07c 1519794725
+dir /etc/X11
+dir /etc/X11/xinit
+dir /etc/X11/xinit/xinitrc.d
+obj /etc/X11/xinit/xinitrc.d/90-consolekit e21815b18128370553b3f399912fc74b 1519794725
+dir /etc/logrotate.d
+obj /etc/logrotate.d/consolekit 94c8a5d4828b67bcabe2e9ef0d301921 1519794725
+dir /etc/ConsoleKit
+dir /etc/ConsoleKit/seats.d
+obj /etc/ConsoleKit/seats.d/00-primary.seat eb3f3c54b501dbdaf38dbc38a4ee91fe 1519794725
+dir /etc/ConsoleKit/run-seat.d
+dir /etc/ConsoleKit/run-session.d
+obj /etc/ConsoleKit/run-session.d/.keep_sys-auth_consolekit-0 d41d8cd98f00b204e9800998ecf8427e 1519794725
+sym /usr/lib/consolekit -> /usr/lib/ConsoleKit 1519794725
+sym /lib/udev/udev-acl -> /usr/lib/ConsoleKit/udev-acl 1519794725

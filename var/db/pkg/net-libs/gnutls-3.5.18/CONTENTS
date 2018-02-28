@@ -1,0 +1,49 @@
+dir /usr
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/gnutls-3.5.18
+obj /usr/share/doc/gnutls-3.5.18/certtool.cfg.bz2 f2c573397e6ecd7121b7126c86fb771e 1519788031
+obj /usr/share/doc/gnutls-3.5.18/README.md.bz2 06995f44286ca31ec2066c15ce395750 1519788031
+dir /usr/share/locale
+dir /usr/share/locale/zh_CN
+dir /usr/share/locale/zh_CN/LC_MESSAGES
+obj /usr/share/locale/zh_CN/LC_MESSAGES/gnutls.mo 3372d4c4867aac9b33b579ab6b18f437 1519788031
+dir /usr/share/locale/en@quot
+dir /usr/share/locale/en@quot/LC_MESSAGES
+obj /usr/share/locale/en@quot/LC_MESSAGES/gnutls.mo 89d472522cf22b213e7cc806045d85b5 1519788031
+dir /usr/share/locale/en@boldquot
+dir /usr/share/locale/en@boldquot/LC_MESSAGES
+obj /usr/share/locale/en@boldquot/LC_MESSAGES/gnutls.mo d57fa4862ba5d6fe9f9c9766d3b0f3d1 1519788031
+dir /usr/lib64
+obj /usr/lib64/libgnutls.so.30.14.10 2b2318f82077593a230ca242d7ceacce 1519788032
+obj /usr/lib64/libgnutlsxx.so.28.1.0 6f5b9dec5f04b4e311806bc163b985c3 1519788032
+obj /usr/lib64/libgnutls-openssl.so.27.0.2 8496adfdd6f99ca4c78207168f123402 1519788032
+sym /usr/lib64/libgnutls-openssl.so -> libgnutls-openssl.so.27.0.2 1519788031
+sym /usr/lib64/libgnutls-openssl.so.27 -> libgnutls-openssl.so.27.0.2 1519788031
+sym /usr/lib64/libgnutlsxx.so -> libgnutlsxx.so.28.1.0 1519788031
+sym /usr/lib64/libgnutlsxx.so.28 -> libgnutlsxx.so.28.1.0 1519788031
+sym /usr/lib64/libgnutls.so -> libgnutls.so.30.14.10 1519788030
+sym /usr/lib64/libgnutls.so.30 -> libgnutls.so.30.14.10 1519788030
+dir /usr/lib64/pkgconfig
+obj /usr/lib64/pkgconfig/gnutls.pc 5248bf670486c317bf5ba3c7878e5a52 1519788030
+dir /usr/include
+dir /usr/include/gnutls
+obj /usr/include/gnutls/openssl.h 4d3182a8f95e1f708d57e6fbb0172da9 1519788031
+obj /usr/include/gnutls/gnutls.h e03610c1233a8956742200a281b33cfd 1519788030
+obj /usr/include/gnutls/gnutlsxx.h fbd05b0acec2d2d41c18db6692418d1f 1519788030
+obj /usr/include/gnutls/socket.h eb529c873c6843c1fa2ca342fc5e9746 1519788030
+obj /usr/include/gnutls/pkcs7.h a41c544152da32a196926d98386c2502 1519788030
+obj /usr/include/gnutls/urls.h 20edfff710ecb78628a5438d7cc9fd1a 1519788030
+obj /usr/include/gnutls/system-keys.h 18ebc862a2db7dc196f69acb7f41b3ce 1519788030
+obj /usr/include/gnutls/self-test.h d5460dfca9bd9751389cb4c88a6aa7c9 1519788030
+obj /usr/include/gnutls/x509-ext.h a774bfea24c85dfcf49651abf0341888 1519788030
+obj /usr/include/gnutls/tpm.h c47d4c025b49b6f66a6f4e4f48f1b82d 1519788030
+obj /usr/include/gnutls/ocsp.h 94fd31ea596e101dbae235d597656319 1519788030
+obj /usr/include/gnutls/dtls.h 7417565b6d5d041be9253c4f0ffde0bc 1519788030
+obj /usr/include/gnutls/abstract.h a79175086f3f38f223cd7ddb4dff2dc6 1519788030
+obj /usr/include/gnutls/pkcs11.h b05ba121399e921c7cc98a9cf3808726 1519788030
+obj /usr/include/gnutls/crypto.h 8af9970ec6ea2d7e3bfa8243db428848 1519788030
+obj /usr/include/gnutls/openpgp.h 08aa39a6e333c3f120875001ae8f4ad8 1519788030
+obj /usr/include/gnutls/compat.h 52c33dbd3770a8a6810c2b1d605b523e 1519788030
+obj /usr/include/gnutls/pkcs12.h e2053449435d943246f2b718091f1786 1519788030
+obj /usr/include/gnutls/x509.h b300479102e96d052d1fc92614de84d5 1519788030

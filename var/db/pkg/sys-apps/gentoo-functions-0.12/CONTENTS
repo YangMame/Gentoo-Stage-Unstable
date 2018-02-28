@@ -1,0 +1,10 @@
+dir /sbin
+obj /sbin/consoletype 69c5730fdf012e2c47383ad2bbff6dd5 1519345194
+dir /lib
+dir /lib/gentoo
+obj /lib/gentoo/functions.sh 9e34ce984ae1678bbd77a96d58e8bd4d 1519345192
+dir /usr
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/consoletype.1.bz2 32351712a917872e279f66369bb5d2f7 1519345192

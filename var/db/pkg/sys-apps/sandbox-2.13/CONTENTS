@@ -1,0 +1,31 @@
+dir /var
+dir /var/log
+dir /var/log/sandbox
+obj /var/log/sandbox/.keep_sys-apps_sandbox-0 d41d8cd98f00b204e9800998ecf8427e 1519782730
+dir /usr
+dir /usr/lib64
+obj /usr/lib64/libsandbox.so 2265c13356086c499c9b0e8aa0727184 1519782731
+dir /usr/bin
+obj /usr/bin/sandbox 87c58fe587d1edf28a09d2613a7efc10 1519782731
+dir /usr/lib32
+obj /usr/lib32/libsandbox.so 5bba48db9c9b4e75687562faa9c346a1 1519782731
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/sandbox-2.13
+obj /usr/share/doc/sandbox-2.13/README.bz2 d095389e17536008c7488b03f13b4bfa 1519782730
+obj /usr/share/doc/sandbox-2.13/ChangeLog.0.bz2 7dcc3e825378a660d2291500ac1fc3aa 1519782730
+obj /usr/share/doc/sandbox-2.13/ChangeLog.bz2 3336a68188547bfb6291bad487dfb9ea 1519782730
+obj /usr/share/doc/sandbox-2.13/AUTHORS.bz2 e393f4235a4b380cc3c54783243c2ba9 1519782730
+obj /usr/share/doc/sandbox-2.13/NEWS 2a5fff45dca7cd4916068dba07f457ae 1519782730
+dir /usr/share/sandbox
+obj /usr/share/sandbox/sandbox.bashrc 7d7fcb1c11d85e6da9251b1f8150d5d4 1519782730
+dir /usr/share/pixmaps
+obj /usr/share/pixmaps/sandbox.svg c9b8b4ccce11bbc1c3e99009c70ad0f8 1519782730
+dir /usr/share/applications
+obj /usr/share/applications/sandbox.desktop 755bd37d1b8b83cf6b285fcb38073ceb 1519782730
+dir /etc
+dir /etc/env.d
+obj /etc/env.d/09sandbox 1e4d8cd352642245a1af233d6b9b4e2f 1519782730
+obj /etc/sandbox.conf c56c10fde26c886788068cf36b31f4d8 1519782730
+dir /etc/sandbox.d
+obj /etc/sandbox.d/00default f704ea2e9c9b43dfd63468da6c0e336d 1519782730

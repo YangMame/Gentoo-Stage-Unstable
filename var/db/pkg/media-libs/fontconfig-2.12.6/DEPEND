@@ -1,0 +1,1 @@
+>=dev-libs/expat-2.1.0-r3[abi_x86_64(-)] >=media-libs/freetype-2.5.3-r1[abi_x86_64(-)] virtual/pkgconfig >=app-portage/elt-patches-20170422 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.16:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4

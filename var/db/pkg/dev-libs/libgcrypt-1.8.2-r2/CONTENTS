@@ -1,0 +1,30 @@
+dir /usr
+dir /usr/include
+obj /usr/include/gcrypt.h 4b8b20e9445743df08775a633fd24f3e 1519786896
+dir /usr/bin
+obj /usr/bin/mpicalc 9655aba6edfeffbe22ae9c286cb8f852 1519786897
+obj /usr/bin/hmac256 be584e15d8a5f513b0cc2c169750280f 1519786897
+obj /usr/bin/dumpsexp 845093e541f9d93e02345ca6f87c3fee 1519786897
+sym /usr/bin/libgcrypt-config -> x86_64-pc-linux-gnu-libgcrypt-config 1519786896
+obj /usr/bin/x86_64-pc-linux-gnu-libgcrypt-config 9fb380b8a552fb5a3a0501277b3155cb 1519786896
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/libgcrypt-1.8.2-r2
+obj /usr/share/doc/libgcrypt-1.8.2-r2/THANKS.bz2 f422d011fbc445faaaa0f2106caddd1d 1519786897
+obj /usr/share/doc/libgcrypt-1.8.2-r2/TODO.bz2 f1167edd8e88fe03c52912030d08892f 1519786897
+obj /usr/share/doc/libgcrypt-1.8.2-r2/NEWS.bz2 5f45868ceada2a0e0a37c94e120b9130 1519786897
+obj /usr/share/doc/libgcrypt-1.8.2-r2/AUTHORS.bz2 4759d55f7aa75fd5e7c10576449b7081 1519786897
+obj /usr/share/doc/libgcrypt-1.8.2-r2/ChangeLog.bz2 a4d4cabaef02d181dd6df02f878593ef 1519786897
+obj /usr/share/doc/libgcrypt-1.8.2-r2/README.GIT.bz2 562a132294974ba99d7c224af7301984 1519786896
+obj /usr/share/doc/libgcrypt-1.8.2-r2/README.bz2 43fa2c9e03898ec053f195eb4c888abd 1519786896
+dir /usr/share/info
+obj /usr/share/info/gcrypt.info.bz2 b8c8162c03c9f7091f0f17e3f782dc8c 1519786896
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/hmac256.1.bz2 f8a3ec46e9b116f4b515baceb82a0acf 1519786896
+dir /usr/share/aclocal
+obj /usr/share/aclocal/libgcrypt.m4 ea6348e5b1f8e7db68adb91622d40840 1519786896
+dir /usr/lib64
+obj /usr/lib64/libgcrypt.so.20.2.2 549f692e5605e5adc5c321d6526693d5 1519786898
+sym /usr/lib64/libgcrypt.so -> libgcrypt.so.20.2.2 1519786896
+sym /usr/lib64/libgcrypt.so.20 -> libgcrypt.so.20.2.2 1519786896

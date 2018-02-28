@@ -1,0 +1,11 @@
+[X-GNOME-Metatheme]
+Name=Adwaita
+Name[zh_CN]=Adwaita
+Type=X-GNOME-Metatheme
+Comment=There is only one
+Comment[zh_CN]=只有一个
+Encoding=UTF-8
+GtkTheme=Adwaita
+IconTheme=Adwaita
+CursorTheme=Adwaita
+CursorSize=24

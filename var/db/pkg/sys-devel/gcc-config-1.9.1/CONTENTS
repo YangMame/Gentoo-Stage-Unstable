@@ -1,0 +1,10 @@
+dir /usr
+dir /usr/share
+dir /usr/share/eselect
+dir /usr/share/eselect/modules
+obj /usr/share/eselect/modules/gcc.eselect 6eb56efe3ccda05d10731a9c987b1cd5 1519782362
+dir /usr/lib64
+dir /usr/lib64/misc
+obj /usr/lib64/misc/gcc-config 0ff4f297490d69acaad1e45c1568cba1 1519782363
+dir /usr/bin
+obj /usr/bin/gcc-config 1791e544b5d7fd934bb8f4125cd5e686 1519782362

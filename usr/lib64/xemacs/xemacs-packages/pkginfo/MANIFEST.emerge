@@ -1,0 +1,10 @@
+pkginfo/MANIFEST.emerge
+lisp/emerge/ChangeLog
+lisp/emerge/_pkg.el
+lisp/emerge/auto-autoloads.el
+lisp/emerge/auto-autoloads.elc
+lisp/emerge/custom-load.el
+lisp/emerge/custom-load.elc
+lisp/emerge/emerge.el
+lisp/emerge/emerge.elc
+etc/./emerge.txt

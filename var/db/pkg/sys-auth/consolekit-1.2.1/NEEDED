@@ -1,0 +1,15 @@
+/usr/sbin/console-kit-daemon libpolkit-gobject-1.so.0,libgio-2.0.so.0,libgobject-2.0.so.0,libglib-2.0.so.0,libudev.so.1,libpthread.so.0,libc.so.6
+/usr/sbin/ck-log-system-start libglib-2.0.so.0,libpthread.so.0,libc.so.6
+/usr/sbin/ck-log-system-restart libglib-2.0.so.0,libpthread.so.0,libc.so.6
+/usr/sbin/ck-log-system-stop libglib-2.0.so.0,libpthread.so.0,libc.so.6
+/usr/lib64/libconsolekit.so.1.0.0 libgio-2.0.so.0,libgobject-2.0.so.0,libglib-2.0.so.0,libpthread.so.0,libc.so.6
+/usr/lib64/libck-connector.so.0.0.0 libdbus-1.so.3,libc.so.6
+/usr/lib/ConsoleKit/ck-collect-session-info libglib-2.0.so.0,libpthread.so.0,libc.so.6
+/usr/lib/ConsoleKit/ck-get-x11-server-pid libglib-2.0.so.0,libX11.so.6,libpthread.so.0,libc.so.6
+/usr/lib/ConsoleKit/ck-get-x11-display-device libglib-2.0.so.0,libX11.so.6,libpthread.so.0,libc.so.6
+/usr/lib/ConsoleKit/ck-remove-directory libglib-2.0.so.0,libpthread.so.0,libc.so.6
+/usr/lib/ConsoleKit/udev-acl libglib-2.0.so.0,libudev.so.1,libacl.so.1,libpthread.so.0,libc.so.6
+/usr/bin/ck-launch-session libck-connector.so.0,libdbus-1.so.3,libglib-2.0.so.0,libpthread.so.0,libc.so.6
+/usr/bin/ck-list-sessions libgio-2.0.so.0,libgobject-2.0.so.0,libglib-2.0.so.0,libpthread.so.0,libc.so.6
+/usr/bin/ck-history libglib-2.0.so.0,libz.so.1,libpthread.so.0,libc.so.6
+/lib64/security/pam_ck_connector.so libpam.so.0,libck-connector.so.0,libdbus-1.so.3,libc.so.6

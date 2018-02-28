@@ -1,0 +1,75 @@
+dir /etc
+dir /etc/cron.daily
+obj /etc/cron.daily/man-db b611c92a1b5a1cb1588a6ca243a28b61 1519794636
+obj /etc/man_db.conf c4bc9b072b82408f6310d9afc3daf51e 1519794634
+dir /usr
+dir /usr/sbin
+obj /usr/sbin/accessdb 079da4c051cc54f3b4a061ab2d4b9915 1519794636
+dir /usr/libexec
+dir /usr/libexec/man-db
+obj /usr/libexec/man-db/zsoelim c0725dc5d6ec7ff5503b09236b3c2ce8 1519794636
+obj /usr/libexec/man-db/manconv 1001e830de03fd10231ee7e410d23562 1519794636
+obj /usr/libexec/man-db/globbing 10bd7a2f22bad14f3f9c053b328ee4f1 1519794636
+dir /usr/bin
+obj /usr/bin/whatis f155c96e5853b16f3298506ef0bfa2d7 1519794637
+obj /usr/bin/manpath 6cd3c8b4fe8bae1783bb8c576bebd653 1519794637
+obj /usr/bin/mandb 396bee82df9e860b81c2f8f2b3ad2958 1519794636
+obj /usr/bin/lexgrog 611210f92b281e348303d87a093d696b 1519794636
+obj /usr/bin/man 2b27d0d8e0703aecb5af724ede8ee9ad 1519794636
+obj /usr/bin/catman e5700e5ec65056f30d8bd320221718d6 1519794636
+sym /usr/bin/apropos -> whatis 1519794635
+dir /usr/lib64
+dir /usr/lib64/man-db
+obj /usr/lib64/man-db/libmandb-2.8.1.so 88784b7f5d7733cc08c8f77f02556f41 1519794636
+obj /usr/lib64/man-db/libman-2.8.1.so b899c46c196864825ab9a67457bc1925 1519794636
+sym /usr/lib64/man-db/libmandb.so -> libmandb-2.8.1.so 1519794634
+sym /usr/lib64/man-db/libman.so -> libman-2.8.1.so 1519794634
+dir /usr/lib
+dir /usr/lib/tmpfiles.d
+obj /usr/lib/tmpfiles.d/man-db.conf fcb712cac8291e35a443011fb31b3351 1519794634
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/man-db-2.8.1
+obj /usr/share/doc/man-db-2.8.1/TODO.bz2 26d6518ef17acac2b145366d487da660 1519794636
+obj /usr/share/doc/man-db-2.8.1/HACKING.bz2 e359f0f77dc77a50b4f9b72ab9f4c2c6 1519794636
+obj /usr/share/doc/man-db-2.8.1/FAQ.bz2 b9895187e63fd3b5b81c653604be7489 1519794636
+obj /usr/share/doc/man-db-2.8.1/NEWS.bz2 3d2e6532e31d777ae14bd077d0a68d8b 1519794636
+obj /usr/share/doc/man-db-2.8.1/ChangeLog.bz2 7da06a1ea258294761825e9e2d6643ef 1519794636
+obj /usr/share/doc/man-db-2.8.1/README.bz2 735bb11cb7abaa390187baf640ee9f61 1519794636
+obj /usr/share/doc/man-db-2.8.1/man-db-manual.ps.bz2 26d28625d2da984c93a7845c45294bd2 1519794635
+obj /usr/share/doc/man-db-2.8.1/man-db-manual.txt.bz2 84b114cfc06769d09db93fdd7f4a496e 1519794635
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/zsoelim.1.bz2 625dfff0a8c1fbfe84e7dcaaac5d4433 1519794635
+obj /usr/share/man/man1/whatis.1.bz2 20e530f11ea254d190296d05783a1d4b 1519794635
+obj /usr/share/man/man1/manpath.1.bz2 980673e7d3640098af84acf45edf01d6 1519794635
+obj /usr/share/man/man1/manconv.1.bz2 11748c3b41f44c89b911d43685070c02 1519794635
+obj /usr/share/man/man1/man.1.bz2 d478e08135d5918527cc663f2bb3e5a0 1519794635
+obj /usr/share/man/man1/lexgrog.1.bz2 0f65a7d55b5c3d002383faa8a7c07036 1519794635
+obj /usr/share/man/man1/apropos.1.bz2 30cca2b2d6d8b6927ab6e39e26563a50 1519794635
+dir /usr/share/man/man8
+obj /usr/share/man/man8/mandb.8.bz2 d86fdbec2923001cab1e0ace43602b07 1519794635
+obj /usr/share/man/man8/catman.8.bz2 1b47127ef7df4abf246b194ff14011d7 1519794635
+obj /usr/share/man/man8/accessdb.8.bz2 4097f10f4bd70fa5633e9b07c7ba6f8a 1519794635
+dir /usr/share/man/man5
+obj /usr/share/man/man5/manpath.5.bz2 ea7c1e122aeb72c9f510d45293dcd60a 1519794635
+dir /usr/share/man/zh_CN
+dir /usr/share/man/zh_CN/man1
+obj /usr/share/man/zh_CN/man1/zsoelim.1.bz2 8f97deeef9aec3b82307fdea6335299f 1519794635
+obj /usr/share/man/zh_CN/man1/whatis.1.bz2 1c57470fd59664da80b1dabd9c3b2a48 1519794635
+obj /usr/share/man/zh_CN/man1/manpath.1.bz2 0e4b831e5f2780fff6b4efd82aeb2026 1519794635
+obj /usr/share/man/zh_CN/man1/manconv.1.bz2 9d95a678cddd65576dfe728f5ccc0033 1519794635
+obj /usr/share/man/zh_CN/man1/man.1.bz2 4d1e2136e10d4d315c35b3ef229580b2 1519794635
+obj /usr/share/man/zh_CN/man1/lexgrog.1.bz2 69bf5df4b5f7f860c524949ea9384395 1519794635
+obj /usr/share/man/zh_CN/man1/apropos.1.bz2 b06e0e3ba4b5df14a8b42e3a77f0929f 1519794635
+dir /usr/share/man/zh_CN/man5
+obj /usr/share/man/zh_CN/man5/manpath.5.bz2 b3aeca3e3c7a08466868e05063a83f0c 1519794635
+dir /usr/share/man/zh_CN/man8
+obj /usr/share/man/zh_CN/man8/mandb.8.bz2 97ced4628d60379f3c9868e7d583c8d6 1519794635
+obj /usr/share/man/zh_CN/man8/catman.8.bz2 1432fb1a2160268b3882abe57ea08355 1519794635
+obj /usr/share/man/zh_CN/man8/accessdb.8.bz2 dcfc88406d5be2b58d0bdac932a388db 1519794635
+dir /usr/share/locale
+dir /usr/share/locale/zh_CN
+dir /usr/share/locale/zh_CN/LC_MESSAGES
+obj /usr/share/locale/zh_CN/LC_MESSAGES/man-db.mo cd93d74bf78f456321b3648853dbfebd 1519794635
+obj /usr/share/locale/zh_CN/LC_MESSAGES/man-db-gnulib.mo 00e475e1b30ad1b21e8cbbcb9169d493 1519794634

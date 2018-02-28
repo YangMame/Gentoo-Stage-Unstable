@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<book xmlns="http://www.devhelp.net/book" title="ConsoleKit2 Reference Manual" link="index.html" author="Eric Koegel" name="libconsolekit" version="2" language="c">
+  <chapters>
+    <sub name="libconsolekit - Helper library to query various ConsoleKit properties" link="ch01.html">
+      <sub name="libconsolekit" link="libconsolekit-libconsolekit.html"/>
+    </sub>
+    <sub name="API Index" link="api-index-full.html"/>
+    <sub name="Version 1.0 API Index" link="api-index-1.0.html"/>
+    <sub name="Deprecated API Symbols" link="api-index-deprecated.html"/>
+    <sub name="Annotation Glossary" link="annotation-glossary.html"/>
+  </chapters>
+  <functions>
+    <keyword type="function" name="lib_consolekit_error_quark ()" link="libconsolekit-libconsolekit.html#lib-consolekit-error-quark"/>
+    <keyword type="function" name="lib_consolekit_new ()" link="libconsolekit-libconsolekit.html#lib-consolekit-new" since="1.0"/>
+    <keyword type="function" name="lib_consolekit_seat_get_active ()" link="libconsolekit-libconsolekit.html#lib-consolekit-seat-get-active" since="1.0"/>
+    <keyword type="function" name="lib_consolekit_seat_get_sessions ()" link="libconsolekit-libconsolekit.html#lib-consolekit-seat-get-sessions" since="1.0"/>
+    <keyword type="function" name="lib_consolekit_seat_can_multi_session ()" link="libconsolekit-libconsolekit.html#lib-consolekit-seat-can-multi-session" since="1.0"/>
+    <keyword type="function" name="lib_consolekit_session_is_active ()" link="libconsolekit-libconsolekit.html#lib-consolekit-session-is-active" since="1.0"/>
+    <keyword type="function" name="lib_consolekit_session_is_remote ()" link="libconsolekit-libconsolekit.html#lib-consolekit-session-is-remote" since="1.0"/>
+    <keyword type="function" name="lib_consolekit_session_get_class ()" link="libconsolekit-libconsolekit.html#lib-consolekit-session-get-class" since="1.0"/>
+    <keyword type="function" name="lib_consolekit_session_get_uid ()" link="libconsolekit-libconsolekit.html#lib-consolekit-session-get-uid" since="1.0"/>
+    <keyword type="function" name="lib_consolekit_session_get_seat ()" link="libconsolekit-libconsolekit.html#lib-consolekit-session-get-seat" since="1.0"/>
+    <keyword type="function" name="lib_consolekit_session_get_state ()" link="libconsolekit-libconsolekit.html#lib-consolekit-session-get-state" since="1.0"/>
+    <keyword type="function" name="lib_consolekit_session_get_display ()" link="libconsolekit-libconsolekit.html#lib-consolekit-session-get-display" since="1.0"/>
+    <keyword type="function" name="lib_consolekit_session_get_remote_host ()" link="libconsolekit-libconsolekit.html#lib-consolekit-session-get-remote-host" since="1.0"/>
+    <keyword type="function" name="lib_consolekit_session_get_tty ()" link="libconsolekit-libconsolekit.html#lib-consolekit-session-get-tty" since="1.0"/>
+    <keyword type="function" name="lib_consolekit_session_get_type ()" link="libconsolekit-libconsolekit.html#lib-consolekit-session-get-type" since="1.0"/>
+    <keyword type="function" name="lib_consolekit_session_get_vt ()" link="libconsolekit-libconsolekit.html#lib-consolekit-session-get-vt" since="1.0"/>
+    <keyword type="function" name="lib_consolekit_pid_get_session ()" link="libconsolekit-libconsolekit.html#lib-consolekit-pid-get-session" since="1.0"/>
+    <keyword type="enum" name="enum LibConsoleKitError" link="libconsolekit-libconsolekit.html#LibConsoleKitError"/>
+    <keyword type="constant" name="CONSOLEKIT_ERROR_FAILED" link="libconsolekit-libconsolekit.html#CONSOLEKIT-ERROR-FAILED:CAPS"/>
+    <keyword type="constant" name="CONSOLEKIT_ERROR_INVALID_INPUT" link="libconsolekit-libconsolekit.html#CONSOLEKIT-ERROR-INVALID-INPUT:CAPS"/>
+  </functions>
+</book>

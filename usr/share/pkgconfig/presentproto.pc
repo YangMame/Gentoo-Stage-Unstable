@@ -1,0 +1,8 @@
+prefix=/usr
+libdir=${prefix}/lib64
+includedir=${prefix}/include
+
+Name: presentproto
+Description: presentproto headers
+Version: 1.1
+Cflags: -I${includedir}

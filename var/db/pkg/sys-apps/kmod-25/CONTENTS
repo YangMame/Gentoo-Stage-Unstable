@@ -1,0 +1,50 @@
+dir /etc
+dir /etc/init.d
+obj /etc/init.d/kmod-static-nodes e38c4acdc2b5b09cb81684e87bb7a769 1519782689
+dir /lib
+dir /lib/modprobe.d
+obj /lib/modprobe.d/usb-load-ehci-first.conf 76166c8e368b6a5d3d792322b4cb30d4 1519782689
+dir /sbin
+sym /sbin/rmmod -> ../bin/kmod 1519782689
+sym /sbin/modprobe -> ../bin/kmod 1519782689
+sym /sbin/modinfo -> ../bin/kmod 1519782689
+sym /sbin/lsmod -> ../bin/kmod 1519782689
+sym /sbin/insmod -> ../bin/kmod 1519782689
+sym /sbin/depmod -> ../bin/kmod 1519782689
+dir /lib64
+obj /lib64/libkmod.so.2.3.3 6554c647465028771b0e123783800069 1519782689
+sym /lib64/libkmod.so.2 -> libkmod.so.2.3.3 1519782688
+dir /bin
+obj /bin/kmod 5eeae7720d2c09552bca4d834b23dd7b 1519782689
+sym /bin/modinfo -> kmod 1519782689
+sym /bin/lsmod -> kmod 1519782689
+dir /usr
+dir /usr/include
+obj /usr/include/libkmod.h b4710334d4b8855da1bf53c8d5057429 1519782688
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/kmod-25
+obj /usr/share/doc/kmod-25/TODO.bz2 ede1f1652ef9ac65a656cee42492fa23 1519782688
+obj /usr/share/doc/kmod-25/README.bz2 b4b4ee3cc09035a7505853323f3978a5 1519782688
+obj /usr/share/doc/kmod-25/NEWS.bz2 653379472f6960d19de8a9afbf9e6ba5 1519782688
+dir /usr/share/man
+dir /usr/share/man/man8
+obj /usr/share/man/man8/modinfo.8.bz2 32b638bf960edeb487edb0a1ce5d5e0e 1519782688
+obj /usr/share/man/man8/modprobe.8.bz2 caf9b653a501fae6e5eb99e95619c3e2 1519782688
+obj /usr/share/man/man8/rmmod.8.bz2 f3a53fc0b8745b9019794bbf908b2655 1519782688
+obj /usr/share/man/man8/lsmod.8.bz2 fd201a23187e1ba9f74c2ebb08d2318b 1519782688
+obj /usr/share/man/man8/insmod.8.bz2 c5e6206cbab56b3f920a8bb38caf0942 1519782688
+obj /usr/share/man/man8/depmod.8.bz2 3a40e244c3966beb47b93ab144ca782f 1519782688
+obj /usr/share/man/man8/kmod.8.bz2 df9c528593e56850b7f3a366b012b5ee 1519782688
+dir /usr/share/man/man5
+obj /usr/share/man/man5/modules.dep.5.bz2 d4897f1d12b468f781a882e4da706796 1519782688
+obj /usr/share/man/man5/modprobe.d.5.bz2 e8d3e2097a760b2ac3ecbffd7e5e404b 1519782688
+obj /usr/share/man/man5/depmod.d.5.bz2 fd951d978db9973b59fb0639503a14e5 1519782688
+obj /usr/share/man/man5/modules.dep.bin.5 39e905d6e0af6faea08d24cdd93d7975 1519782688
+dir /usr/share/bash-completion
+dir /usr/share/bash-completion/completions
+obj /usr/share/bash-completion/completions/kmod 3592da55a19f765ee35dffc6f8fa0215 1519782688
+dir /usr/lib64
+sym /usr/lib64/libkmod.so -> ../../lib64/libkmod.so.2.3.3 1519782688
+dir /usr/lib64/pkgconfig
+obj /usr/lib64/pkgconfig/libkmod.pc c6e056814d84b90f7250d0d65db807a9 1519782688

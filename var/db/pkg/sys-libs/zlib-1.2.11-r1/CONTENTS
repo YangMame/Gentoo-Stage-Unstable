@@ -1,0 +1,25 @@
+dir /lib64
+sym /lib64/libz.so.1 -> libz.so.1.2.11 1519345522
+obj /lib64/libz.so.1.2.11 aa44d066137129b3b744b04885b11a17 1519345524
+dir /usr
+dir /usr/lib64
+obj /usr/lib64/libz.so 5ec5a45a1bf0a5e48001808626321bc3 1519345523
+dir /usr/lib64/pkgconfig
+obj /usr/lib64/pkgconfig/zlib.pc 26a531170889d01e8bd67cc2ae44767a 1519345522
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man3
+obj /usr/share/man/man3/zlib.3.bz2 178f980e478c95c04075a968c8eca49f 1519345522
+dir /usr/share/doc
+dir /usr/share/doc/zlib-1.2.11-r1
+obj /usr/share/doc/zlib-1.2.11-r1/ChangeLog.bz2 5462b0b3554dd0329722e943f23334f7 1519345523
+obj /usr/share/doc/zlib-1.2.11-r1/rfc1952.txt.bz2 ad8beb5ec4ab80b62a9fcceec1cd16d8 1519345523
+obj /usr/share/doc/zlib-1.2.11-r1/README.bz2 08685c3947cc177735f1d298d98ecd18 1519345523
+obj /usr/share/doc/zlib-1.2.11-r1/algorithm.txt.bz2 61853746dec9ebb2221d220d350269cc 1519345523
+obj /usr/share/doc/zlib-1.2.11-r1/FAQ.bz2 67829bfe237cad9747279a9413ea4a45 1519345523
+obj /usr/share/doc/zlib-1.2.11-r1/rfc1950.txt.bz2 f8a202b177cd70b346552b82dda01d34 1519345523
+obj /usr/share/doc/zlib-1.2.11-r1/txtvsbin.txt.bz2 7158d1948b3e84a3aab311f51ff23ce6 1519345523
+obj /usr/share/doc/zlib-1.2.11-r1/rfc1951.txt.bz2 ae9d5af5197cb1212b22fe81259959a5 1519345523
+dir /usr/include
+obj /usr/include/zconf.h ee177ec9e6a5796a9b37d8ab2bed0c4a 1519345523
+obj /usr/include/zlib.h 270392d0562a5df1f3619f4f65efe9ee 1519345523

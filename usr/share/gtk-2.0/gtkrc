@@ -1,0 +1,4 @@
+gtk-fallback-icon-theme = "gnome"
+gtk-theme-name = "Adwaita"
+gtk-icon-theme-name = "Adwaita"
+gtk-cursor-theme-name = "Adwaita"

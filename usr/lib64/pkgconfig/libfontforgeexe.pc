@@ -1,0 +1,17 @@
+prefix=/usr
+exec_prefix=${prefix}
+bindir=${exec_prefix}/bin
+libdir=/usr/lib64
+includedir=${prefix}/include
+datarootdir=${prefix}/share
+mandir=/usr/share/man
+localedir=${datarootdir}/locale
+
+Name: libfontforgeexe
+Description: for embedding the FontForge UI in a program.
+Version: 2.0.20170731
+Requires: 
+Requires.private: libfontforge  python-3.5 cairo pango zlib
+Libs: -L/usr/lib64 -lfontforgeexe
+Libs.private: -L/usr/lib64  -lgdraw  -lgioftp -lgutils -lgunicode  -lgif  -ljpeg  -lpng  -ltiff  -luninameslist  -lreadline  -lSM -lICE    -lltdl -lX11 -lm -lltdl 
+Cflags: -I${includedir}/fontforge

@@ -1,0 +1,1 @@
+>=dev-libs/libevdev-1.3 >=sys-libs/mtdev-1.1 virtual/libudev virtual/pkgconfig >=dev-util/meson-0.40.0 >=dev-util/ninja-1.7.2 virtual/pkgconfig

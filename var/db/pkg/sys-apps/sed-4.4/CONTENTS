@@ -1,0 +1,22 @@
+dir /bin
+obj /bin/sed 1e9c87356450ea75304d3cfe41fa050c 1519782922
+dir /usr
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/sed-4.4
+obj /usr/share/doc/sed-4.4/BUGS.bz2 4edc414e13caaf8dc13d1c743ff486a7 1519782921
+obj /usr/share/doc/sed-4.4/THANKS.bz2 dbf265a5ed160a1b62183a59f4e9e1b0 1519782921
+obj /usr/share/doc/sed-4.4/NEWS.bz2 5c02e1b3789d003474a93bf721712048 1519782921
+obj /usr/share/doc/sed-4.4/AUTHORS.bz2 7fcd638253be8864dfd0e9955d382cfc 1519782921
+obj /usr/share/doc/sed-4.4/ChangeLog.bz2 03cc3c06a3c0a58a86a747a35e28cf6c 1519782921
+obj /usr/share/doc/sed-4.4/README-release.bz2 854af0ed4c714c82dfc31cf95ea5ee0d 1519782921
+obj /usr/share/doc/sed-4.4/README.bz2 f43d746b9be7f328d6acf735e570f417 1519782920
+dir /usr/share/info
+obj /usr/share/info/sed.info.bz2 ab0a8967c4a31d7cd56244fc4ead5e8e 1519782920
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/sed.1.bz2 93de05aed9ed51784a02ea09b8a8248f 1519782920
+dir /usr/share/locale
+dir /usr/share/locale/zh_CN
+dir /usr/share/locale/zh_CN/LC_MESSAGES
+obj /usr/share/locale/zh_CN/LC_MESSAGES/sed.mo 8a3a30f9185f73c1f3c83422f5bb58c1 1519782920

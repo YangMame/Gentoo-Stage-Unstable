@@ -1,0 +1,37 @@
+***** automake *****
+***** PWD: /var/tmp/portage/dev-libs/libxml2-2.9.7/work/libxml2-2.9.7
+***** automake --add-missing --copy --force-missing
+
+configure.ac:53: warning: AM_INIT_AUTOMAKE: two- and three-arguments forms are deprecated.  For more info, see:
+configure.ac:53: https://www.gnu.org/software/automake/manual/automake.html#Modernize-AM_005fINIT_005fAUTOMAKE-invocation
+configure.ac:61: installing './compile'
+configure.ac:53: installing './missing'
+Makefile.am: installing './depcomp'
+doc/Makefile.am:21: warning: wildcard tutorial/*.html: non-POSIX variable name
+doc/Makefile.am:21: (probably a GNU make extension)
+doc/Makefile.am:21: warning: wildcard tutorial/*.c: non-POSIX variable name
+doc/Makefile.am:21: (probably a GNU make extension)
+doc/Makefile.am:21: warning: wildcard tutorial/*.pdf: non-POSIX variable name
+doc/Makefile.am:21: (probably a GNU make extension)
+doc/Makefile.am:21: warning: wildcard tutorial/images/*.png: non-POSIX variable name
+doc/Makefile.am:21: (probably a GNU make extension)
+doc/Makefile.am:21: warning: wildcard tutorial/images/callouts/*.png: non-POSIX variable name
+doc/Makefile.am:21: (probably a GNU make extension)
+doc/Makefile.am:21: warning: wildcard API*.html: non-POSIX variable name
+doc/Makefile.am:21: (probably a GNU make extension)
+doc/Makefile.am:21: warning: wildcard *.1: non-POSIX variable name
+doc/Makefile.am:21: (probably a GNU make extension)
+doc/Makefile.am:21: warning: wildcard *.xsl: non-POSIX variable name
+doc/Makefile.am:21: (probably a GNU make extension)
+doc/Makefile.am:21: warning: wildcard *.html: non-POSIX variable name
+doc/Makefile.am:21: (probably a GNU make extension)
+doc/Makefile.am:21: warning: wildcard *.gif: non-POSIX variable name
+doc/Makefile.am:21: (probably a GNU make extension)
+doc/Makefile.am:21: warning: wildcard html/*.html: non-POSIX variable name
+doc/Makefile.am:21: (probably a GNU make extension)
+doc/Makefile.am:21: warning: wildcard html/*.png: non-POSIX variable name
+doc/Makefile.am:21: (probably a GNU make extension)
+doc/Makefile.am:301: warning: filter-out %/xmlversion.h, $(wildcard $(top_srcdir: non-POSIX variable name
+doc/Makefile.am:301: (probably a GNU make extension)
+doc/Makefile.am:301: warning: wildcard $(top_srcdir: non-POSIX variable name
+doc/Makefile.am:301: (probably a GNU make extension)

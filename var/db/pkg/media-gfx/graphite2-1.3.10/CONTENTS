@@ -1,0 +1,23 @@
+dir /usr
+dir /usr/bin
+obj /usr/bin/gr2fonttest 93feb09c1c9b9aa38d7ddfe4dbfcd182 1519791453
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/graphite2-1.3.10
+obj /usr/share/doc/graphite2-1.3.10/ChangeLog.bz2 449febc8eaf2b506bbcb8ec03a724b2b 1519791452
+obj /usr/share/doc/graphite2-1.3.10/README.md.bz2 3e514e9c7148a16911220d002edcaae5 1519791452
+dir /usr/share/graphite2
+obj /usr/share/graphite2/graphite2-gentoo.cmake 4042e8ecbbf510bd6c45ef9efb0d8e69 1519791445
+obj /usr/share/graphite2/graphite2.cmake f953ead97021285542e9029311b4e928 1519791445
+dir /usr/include
+dir /usr/include/graphite2
+obj /usr/include/graphite2/Log.h a88827027985718c3c47aa2da402929d 1493998518
+obj /usr/include/graphite2/Types.h c2051f00cf95c969b67ebd877e8b56be 1493998518
+obj /usr/include/graphite2/Segment.h cdf9add1e36941fccd7ea9e49e6c7536 1493998518
+obj /usr/include/graphite2/Font.h 010848806fec01b05e015b52b642be71 1493998518
+dir /usr/lib64
+obj /usr/lib64/libgraphite2.so.3.0.1 8b74d9c46af8f3026d9162613753328a 1519791453
+sym /usr/lib64/libgraphite2.so.3 -> libgraphite2.so.3.0.1 1519791452
+dir /usr/lib64/pkgconfig
+obj /usr/lib64/pkgconfig/graphite2.pc 90e6442786a1695652e6ee61c388b8ae 1519791445
+sym /usr/lib64/libgraphite2.so -> libgraphite2.so.3 1519791452

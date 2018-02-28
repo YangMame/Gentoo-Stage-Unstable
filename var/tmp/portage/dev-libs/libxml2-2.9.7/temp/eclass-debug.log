@@ -1,0 +1,137 @@
+  eclass exists: /usr/portage/eclass/libtool.eclass
+inherit: libtool -> /usr/portage/eclass/libtool.eclass
+*** Multiple Inheritence (Level: 2)
+  eclass exists: /usr/portage/eclass/toolchain-funcs.eclass
+inherit: toolchain-funcs -> /usr/portage/eclass/toolchain-funcs.eclass
+*** Multiple Inheritence (Level: 3)
+  eclass exists: /usr/portage/eclass/multilib.eclass
+inherit: multilib -> /usr/portage/eclass/multilib.eclass
+*** Multiple Inheritence (Level: 4)
+  eclass exists: /usr/portage/eclass/toolchain-funcs.eclass
+inherit: toolchain-funcs -> /usr/portage/eclass/toolchain-funcs.eclass
+  eclass exists: /usr/portage/eclass/flag-o-matic.eclass
+inherit: flag-o-matic -> /usr/portage/eclass/flag-o-matic.eclass
+*** Multiple Inheritence (Level: 2)
+  eclass exists: /usr/portage/eclass/eutils.eclass
+inherit: eutils -> /usr/portage/eclass/eutils.eclass
+*** Multiple Inheritence (Level: 3)
+  eclass exists: /usr/portage/eclass/desktop.eclass
+inherit: desktop -> /usr/portage/eclass/desktop.eclass
+  eclass exists: /usr/portage/eclass/epatch.eclass
+inherit: epatch -> /usr/portage/eclass/epatch.eclass
+*** Multiple Inheritence (Level: 4)
+  eclass exists: /usr/portage/eclass/estack.eclass
+inherit: estack -> /usr/portage/eclass/estack.eclass
+  eclass exists: /usr/portage/eclass/estack.eclass
+inherit: estack -> /usr/portage/eclass/estack.eclass
+  eclass exists: /usr/portage/eclass/ltprune.eclass
+inherit: ltprune -> /usr/portage/eclass/ltprune.eclass
+*** Multiple Inheritence (Level: 4)
+  eclass exists: /usr/portage/eclass/toolchain-funcs.eclass
+inherit: toolchain-funcs -> /usr/portage/eclass/toolchain-funcs.eclass
+  eclass exists: /usr/portage/eclass/multilib.eclass
+inherit: multilib -> /usr/portage/eclass/multilib.eclass
+  eclass exists: /usr/portage/eclass/preserve-libs.eclass
+inherit: preserve-libs -> /usr/portage/eclass/preserve-libs.eclass
+  eclass exists: /usr/portage/eclass/toolchain-funcs.eclass
+inherit: toolchain-funcs -> /usr/portage/eclass/toolchain-funcs.eclass
+  eclass exists: /usr/portage/eclass/toolchain-funcs.eclass
+inherit: toolchain-funcs -> /usr/portage/eclass/toolchain-funcs.eclass
+  eclass exists: /usr/portage/eclass/multilib.eclass
+inherit: multilib -> /usr/portage/eclass/multilib.eclass
+  eclass exists: /usr/portage/eclass/ltprune.eclass
+inherit: ltprune -> /usr/portage/eclass/ltprune.eclass
+  eclass exists: /usr/portage/eclass/python-r1.eclass
+inherit: python-r1 -> /usr/portage/eclass/python-r1.eclass
+*** Multiple Inheritence (Level: 2)
+  eclass exists: /usr/portage/eclass/multibuild.eclass
+inherit: multibuild -> /usr/portage/eclass/multibuild.eclass
+  eclass exists: /usr/portage/eclass/python-utils-r1.eclass
+inherit: python-utils-r1 -> /usr/portage/eclass/python-utils-r1.eclass
+*** Multiple Inheritence (Level: 3)
+  eclass exists: /usr/portage/eclass/toolchain-funcs.eclass
+inherit: toolchain-funcs -> /usr/portage/eclass/toolchain-funcs.eclass
+_python_impl_supported: entering function, parameters: python2_7
+_python_impl_supported: entering function, parameters: python3_4
+_python_impl_supported: entering function, parameters: python3_5
+_python_impl_supported: entering function, parameters: python3_6
+python_export: entering function, parameters: python2_7 PYTHON_PKG_DEP
+python_export: implementation: python2.7
+python_export: PYTHON_PKG_DEP = >=dev-lang/python-2.7.5-r2:2.7[xml]
+python_export: entering function, parameters: python3_4 PYTHON_PKG_DEP
+python_export: implementation: python3.4
+python_export: PYTHON_PKG_DEP = dev-lang/python:3.4[xml]
+python_export: entering function, parameters: python3_5 PYTHON_PKG_DEP
+python_export: implementation: python3.5
+python_export: PYTHON_PKG_DEP = dev-lang/python:3.5[xml]
+python_export: entering function, parameters: python3_6 PYTHON_PKG_DEP
+python_export: implementation: python3.6
+python_export: PYTHON_PKG_DEP = dev-lang/python:3.6[xml]
+  eclass exists: /usr/portage/eclass/autotools.eclass
+inherit: autotools -> /usr/portage/eclass/autotools.eclass
+*** Multiple Inheritence (Level: 2)
+  eclass exists: /usr/portage/eclass/libtool.eclass
+inherit: libtool -> /usr/portage/eclass/libtool.eclass
+  eclass exists: /usr/portage/eclass/prefix.eclass
+inherit: prefix -> /usr/portage/eclass/prefix.eclass
+  eclass exists: /usr/portage/eclass/multilib-minimal.eclass
+inherit: multilib-minimal -> /usr/portage/eclass/multilib-minimal.eclass
+*** Multiple Inheritence (Level: 2)
+  eclass exists: /usr/portage/eclass/multilib-build.eclass
+inherit: multilib-build -> /usr/portage/eclass/multilib-build.eclass
+*** Multiple Inheritence (Level: 3)
+  eclass exists: /usr/portage/eclass/multibuild.eclass
+inherit: multibuild -> /usr/portage/eclass/multibuild.eclass
+  eclass exists: /usr/portage/eclass/multilib.eclass
+inherit: multilib -> /usr/portage/eclass/multilib.eclass
+EXPORT_FUNCTIONS: src_configure -> multilib-minimal_src_configure
+EXPORT_FUNCTIONS: src_compile -> multilib-minimal_src_compile
+EXPORT_FUNCTIONS: src_test -> multilib-minimal_src_test
+EXPORT_FUNCTIONS: src_install -> multilib-minimal_src_install
+multilib-minimal_src_configure: entering function, parameters: 
+multilib_foreach_abi: entering function, parameters: multilib-minimal_abi_src_configure
+multilib_get_enabled_abi_pairs: entering function, parameters: 
+multibuild_foreach_variant: entering function, parameters: _multilib_multibuild_wrapper multilib-minimal_abi_src_configure
+multibuild_foreach_variant: initial build_dir = /var/tmp/portage/dev-libs/libxml2-2.9.7/work/libxml2-2.9.7
+_multilib_multibuild_wrapper: entering function, parameters: multilib-minimal_abi_src_configure
+multilib-minimal_abi_src_configure: entering function, parameters: 
+multilib_is_native_abi: entering function, parameters: 
+multilib_is_native_abi: entering function, parameters: 
+multilib_is_native_abi: entering function, parameters: 
+python_foreach_impl: entering function, parameters: libxml2_py_configure
+_python_validate_useflags: entering function, parameters: 
+multibuild_foreach_variant: entering function, parameters: _python_multibuild_wrapper libxml2_py_configure
+multibuild_foreach_variant: initial build_dir = /var/tmp/portage/dev-libs/libxml2-2.9.7/work/libxml2-2.9.7-abi_x86_64.amd64
+_python_multibuild_wrapper: entering function, parameters: libxml2_py_configure
+python_export: entering function, parameters: python2_7 EPYTHON PYTHON
+python_export: implementation: python2.7
+python_export: EPYTHON = python2.7
+python_export: PYTHON = /usr/bin/python2.7
+python_wrapper_setup: entering function, parameters: 
+python_export: entering function, parameters: python2.7 EPYTHON PYTHON
+python_export: implementation: python2.7
+python_export: EPYTHON = python2.7
+python_export: PYTHON = /usr/bin/python2.7
+run_in_build_dir: entering function, parameters: libxml2_configure --with-python=/usr/bin/python2.7
+multilib_is_native_abi: entering function, parameters: 
+multilib_is_native_abi: entering function, parameters: 
+_python_multibuild_wrapper: entering function, parameters: libxml2_py_configure
+python_export: entering function, parameters: python3_5 EPYTHON PYTHON
+python_export: implementation: python3.5
+python_export: EPYTHON = python3.5
+python_export: PYTHON = /usr/bin/python3.5
+python_wrapper_setup: entering function, parameters: 
+python_export: entering function, parameters: python3.5 EPYTHON PYTHON
+python_export: implementation: python3.5
+python_export: EPYTHON = python3.5
+python_export: PYTHON = /usr/bin/python3.5
+run_in_build_dir: entering function, parameters: libxml2_configure --with-python=/usr/bin/python3.5
+multilib_is_native_abi: entering function, parameters: 
+multilib_is_native_abi: entering function, parameters: 
+multilib-minimal_src_compile: entering function, parameters: 
+multilib_foreach_abi: entering function, parameters: multilib-minimal_abi_src_compile
+multilib_get_enabled_abi_pairs: entering function, parameters: 
+multibuild_foreach_variant: entering function, parameters: _multilib_multibuild_wrapper multilib-minimal_abi_src_compile
+multibuild_foreach_variant: initial build_dir = /var/tmp/portage/dev-libs/libxml2-2.9.7/work/libxml2-2.9.7
+_multilib_multibuild_wrapper: entering function, parameters: multilib-minimal_abi_src_compile
+multilib-minimal_abi_src_compile: entering function, parameters: 

@@ -1,0 +1,59 @@
+dir /usr
+dir /usr/include
+dir /usr/include/gsettings-desktop-schemas
+obj /usr/include/gsettings-desktop-schemas/gdesktop-enums.h a85f9893a268ea3034fad2abee6c7d7f 1519793052
+dir /usr/lib64
+dir /usr/lib64/girepository-1.0
+obj /usr/lib64/girepository-1.0/GDesktopEnums-3.0.typelib 8c8aa39bb9befc535ef58dc58652059f 1519793052
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/gsettings-desktop-schemas-3.24.1
+obj /usr/share/doc/gsettings-desktop-schemas-3.24.1/MAINTAINERS.bz2 9b3ce120abc1234d2c14f35f7164e2af 1519793053
+obj /usr/share/doc/gsettings-desktop-schemas-3.24.1/HACKING.bz2 ccef7e8949aebb43d4986ac5043234c3 1519793053
+obj /usr/share/doc/gsettings-desktop-schemas-3.24.1/NEWS.bz2 ffbf2ddfcd1e3ab1e2b86ccb05f44d28 1519793053
+obj /usr/share/doc/gsettings-desktop-schemas-3.24.1/ChangeLog.bz2 30af09ac6fbd6ec586cfc79838cee8f3 1519793053
+obj /usr/share/doc/gsettings-desktop-schemas-3.24.1/README.bz2 cd607bb0b9ac3cb1c8d3164e5296b3b4 1519793053
+obj /usr/share/doc/gsettings-desktop-schemas-3.24.1/AUTHORS b036854bf04e081c0a4f0e9b847b05c2 1519793053
+dir /usr/share/pkgconfig
+obj /usr/share/pkgconfig/gsettings-desktop-schemas.pc 157c3e4d6b2753615da6d8990f048e0b 1519793053
+dir /usr/share/locale
+dir /usr/share/locale/zh_CN
+dir /usr/share/locale/zh_CN/LC_MESSAGES
+obj /usr/share/locale/zh_CN/LC_MESSAGES/gsettings-desktop-schemas.mo 7fcccc8d4f44a59cf08666368aac400c 1519793053
+dir /usr/share/glib-2.0
+dir /usr/share/glib-2.0/schemas
+obj /usr/share/glib-2.0/schemas/org.gnome.desktop.enums.xml 63051f9cd0851ea6315d27f21e8e4150 1519793052
+obj /usr/share/glib-2.0/schemas/org.gnome.desktop.peripherals.gschema.xml 97f128da06f9735def2c5453cc0f78af 1519793052
+obj /usr/share/glib-2.0/schemas/org.gnome.desktop.app-folders.gschema.xml 7e238925377573e614350878218d97de 1519793052
+obj /usr/share/glib-2.0/schemas/org.gnome.desktop.notifications.gschema.xml 3f78a58854a5e891d41d761249bd6b94 1519793052
+obj /usr/share/glib-2.0/schemas/org.gnome.desktop.privacy.gschema.xml eac8b9477605ec03fb7776ab5fc129a8 1519793052
+obj /usr/share/glib-2.0/schemas/org.gnome.desktop.input-sources.gschema.xml 15030480293db37541373c1e3a8a6fb9 1519793052
+obj /usr/share/glib-2.0/schemas/org.gnome.desktop.wm.preferences.gschema.xml 901fabc1632790581cc150d3c0932c84 1519793052
+obj /usr/share/glib-2.0/schemas/org.gnome.desktop.wm.keybindings.gschema.xml 9a0a3982d653a3948d0ecf47c8912d76 1519793052
+obj /usr/share/glib-2.0/schemas/org.gnome.desktop.search-providers.gschema.xml 948c25b8b9989a1f7575188acf180374 1519793052
+obj /usr/share/glib-2.0/schemas/org.gnome.desktop.screensaver.gschema.xml 9ef85a0e89b0fe9c05f447ea8eec3734 1519793052
+obj /usr/share/glib-2.0/schemas/org.gnome.desktop.media-handling.gschema.xml c124891ee46ecd3af9f7166e4694bf76 1519793052
+obj /usr/share/glib-2.0/schemas/org.gnome.desktop.datetime.gschema.xml 188453064a28f68f92bf0e6e1c4e8a21 1519793052
+obj /usr/share/glib-2.0/schemas/org.gnome.desktop.calendar.gschema.xml 2e8c65d28a50c2b0294f48e2cb918361 1519793052
+obj /usr/share/glib-2.0/schemas/org.gnome.desktop.background.gschema.xml f6e23a44db98412a7e1e2fbac3864b47 1519793052
+obj /usr/share/glib-2.0/schemas/org.gnome.desktop.session.gschema.xml a8e0e24297ba403a0055f2535af0480f 1519793052
+obj /usr/share/glib-2.0/schemas/org.gnome.desktop.thumbnailers.gschema.xml 676cbebdb9a70071abc087c741ca8e02 1519793052
+obj /usr/share/glib-2.0/schemas/org.gnome.desktop.a11y.mouse.gschema.xml d0ea35b3e5388fa911db45843624dfa6 1519793052
+obj /usr/share/glib-2.0/schemas/org.gnome.desktop.a11y.magnifier.gschema.xml 17fb4ac5e1b6304c49e2a08b33e5af6b 1519793052
+obj /usr/share/glib-2.0/schemas/org.gnome.desktop.a11y.applications.gschema.xml 7265e05ce661df59098869089d39a890 1519793052
+obj /usr/share/glib-2.0/schemas/org.gnome.desktop.a11y.keyboard.gschema.xml c41acf090198515a1590b273e7a83d96 1519793052
+obj /usr/share/glib-2.0/schemas/org.gnome.desktop.a11y.gschema.xml 0780f741d18a3ec6b2ca90846a239e8c 1519793052
+obj /usr/share/glib-2.0/schemas/org.gnome.desktop.thumbnail-cache.gschema.xml 9d0d48653b52a93516f2d5a4ed73bbb8 1519793052
+obj /usr/share/glib-2.0/schemas/org.gnome.desktop.sound.gschema.xml 2785f1e23be1b9a86ae5e9427172b66c 1519793052
+obj /usr/share/glib-2.0/schemas/org.gnome.system.proxy.gschema.xml 133a03d8d5ebebcc96372fbf440f4067 1519793052
+obj /usr/share/glib-2.0/schemas/org.gnome.system.location.gschema.xml 9a0e6ea95e1a7813cd9e86da2bd8862a 1519793052
+obj /usr/share/glib-2.0/schemas/org.gnome.system.locale.gschema.xml 88e8d23fc6375df9f8242e8794c0e00f 1519793052
+obj /usr/share/glib-2.0/schemas/org.gnome.desktop.lockdown.gschema.xml 95412e8a15d4a412a5ee2dc770115c4c 1519793052
+obj /usr/share/glib-2.0/schemas/org.gnome.desktop.interface.gschema.xml 3642daaeb8c5c44fc755460ba8eb112f 1519793052
+obj /usr/share/glib-2.0/schemas/org.gnome.desktop.default-applications.gschema.xml 41ba802e9614ed2560caf455eaf575c5 1519793052
+dir /usr/share/GConf
+dir /usr/share/GConf/gsettings
+obj /usr/share/GConf/gsettings/wm-schemas.convert 54b59311eede06ff2e018fbfc164215a 1519793052
+obj /usr/share/GConf/gsettings/gsettings-desktop-schemas.convert 113ebe3e002611606d51ac7b52de4f01 1519793052
+dir /usr/share/gir-1.0
+obj /usr/share/gir-1.0/GDesktopEnums-3.0.gir 03126acd177b032d07e7f789798c1db4 1519793052

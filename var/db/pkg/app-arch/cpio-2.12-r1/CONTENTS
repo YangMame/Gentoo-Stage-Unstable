@@ -1,0 +1,22 @@
+dir /bin
+obj /bin/cpio c6d99cb9ab3d34ba4c5a6f3f92418202 1519782333
+dir /usr
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/cpio-2.12-r1
+obj /usr/share/doc/cpio-2.12-r1/THANKS.bz2 6951079c3b0acc63bad22d5ff5285679 1519782333
+obj /usr/share/doc/cpio-2.12-r1/TODO.bz2 57c229991033951ec7c252f88c66f7c4 1519782333
+obj /usr/share/doc/cpio-2.12-r1/NEWS.bz2 7c44111b1c60be50b60808a4639b8c00 1519782333
+obj /usr/share/doc/cpio-2.12-r1/AUTHORS.bz2 de44be9fb77219859a663691e23cec1a 1519782332
+obj /usr/share/doc/cpio-2.12-r1/ChangeLog.bz2 430713df4b1f76fcea3049b804aff6ca 1519782332
+obj /usr/share/doc/cpio-2.12-r1/README.bz2 fc68338fdfd3664afad5bd2f844014f3 1519782332
+dir /usr/share/locale
+dir /usr/share/locale/zh_CN
+dir /usr/share/locale/zh_CN/LC_MESSAGES
+obj /usr/share/locale/zh_CN/LC_MESSAGES/cpio.mo 04325d394620ba394b0e89001d1fe44d 1519782332
+dir /usr/share/info
+obj /usr/share/info/cpio.info.bz2 317ab5a3cd5e21b0f9803dabd41bc6d4 1519782332
+dir /usr/share/man
+dir /usr/share/man/man8
+dir /usr/share/man/man1
+obj /usr/share/man/man1/cpio.1.bz2 3e01ed579fd2f1dfebf4694d27e318d1 1519782332

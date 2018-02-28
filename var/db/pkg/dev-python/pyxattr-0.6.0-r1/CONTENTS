@@ -1,0 +1,23 @@
+dir /usr
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/pyxattr-0.6.0-r1
+obj /usr/share/doc/pyxattr-0.6.0-r1/NEWS.bz2 2a8f1463480ccb5b4233a380eb79ef01 1519786618
+obj /usr/share/doc/pyxattr-0.6.0-r1/README.rst.bz2 d56a4469ab4e8f11e494311d64dab2fd 1519786618
+dir /usr/lib64
+dir /usr/lib64/python3.5
+dir /usr/lib64/python3.5/site-packages
+obj /usr/lib64/python3.5/site-packages/xattr.cpython-35m-x86_64-linux-gnu.so fb13c528d6866b6fed0a5ac4485d05ea 1519786619
+dir /usr/lib64/python3.5/site-packages/pyxattr-0.6.0-py3.5.egg-info
+obj /usr/lib64/python3.5/site-packages/pyxattr-0.6.0-py3.5.egg-info/top_level.txt a2a3b3c3f9f21e74e9612e369296a266 1519786618
+obj /usr/lib64/python3.5/site-packages/pyxattr-0.6.0-py3.5.egg-info/dependency_links.txt 68b329da9893e34099c7d8ad5cb9c940 1519786618
+obj /usr/lib64/python3.5/site-packages/pyxattr-0.6.0-py3.5.egg-info/SOURCES.txt a06dd79a595563047809f6e29aacc6c6 1519786618
+obj /usr/lib64/python3.5/site-packages/pyxattr-0.6.0-py3.5.egg-info/PKG-INFO 0f3acd45fb5b5fe024c21fe9931ee5b9 1519786618
+dir /usr/lib64/python2.7
+dir /usr/lib64/python2.7/site-packages
+obj /usr/lib64/python2.7/site-packages/xattr.so e01acbcaddd74f48393425ea0f2bcb7c 1519786619
+dir /usr/lib64/python2.7/site-packages/pyxattr-0.6.0-py2.7.egg-info
+obj /usr/lib64/python2.7/site-packages/pyxattr-0.6.0-py2.7.egg-info/top_level.txt a2a3b3c3f9f21e74e9612e369296a266 1519786618
+obj /usr/lib64/python2.7/site-packages/pyxattr-0.6.0-py2.7.egg-info/dependency_links.txt 68b329da9893e34099c7d8ad5cb9c940 1519786618
+obj /usr/lib64/python2.7/site-packages/pyxattr-0.6.0-py2.7.egg-info/SOURCES.txt a06dd79a595563047809f6e29aacc6c6 1519786618
+obj /usr/lib64/python2.7/site-packages/pyxattr-0.6.0-py2.7.egg-info/PKG-INFO 0f3acd45fb5b5fe024c21fe9931ee5b9 1519786618

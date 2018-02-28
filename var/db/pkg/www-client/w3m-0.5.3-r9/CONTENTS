@@ -1,0 +1,84 @@
+dir /etc
+dir /etc/w3m
+obj /etc/w3m/mailcap fe00c489702ba1bd12a5b40d580600fa 1519791973
+dir /usr
+dir /usr/libexec
+dir /usr/libexec/w3m
+obj /usr/libexec/w3m/inflate 0d42406be842a765df50dce2fc934aee 1519791974
+obj /usr/libexec/w3m/w3mimgdisplay 1fe5afae0d99658b25ca12b7a0482b04 1519791974
+obj /usr/libexec/w3m/xface2xpm 94532e0c539adcea27e6f4f73f6f8d9f 1519791973
+dir /usr/libexec/w3m/cgi-bin
+obj /usr/libexec/w3m/cgi-bin/w3mhelperpanel b970014df59680d0e65471238a1adef1 1519791974
+obj /usr/libexec/w3m/cgi-bin/w3mbookmark 20deb4666249ecad79dc6f3940c0e44e 1519791974
+obj /usr/libexec/w3m/cgi-bin/w3mman2html.cgi f415cfc64048f7defef85cc1f02b6971 1519791973
+obj /usr/libexec/w3m/cgi-bin/multipart.cgi ee14058f8b914807f2cc56602efc02d8 1519791973
+obj /usr/libexec/w3m/cgi-bin/w3mmail.cgi fd8868aa88454abe6e73de2a26373520 1519791973
+obj /usr/libexec/w3m/cgi-bin/w3mhelp.cgi 26f408c146f8a63292c340af5849a424 1519791973
+obj /usr/libexec/w3m/cgi-bin/w3mdict.cgi d5a18783892cc905671ce5f55ffbb887 1519791973
+obj /usr/libexec/w3m/cgi-bin/dirlist.cgi 27e3898d5f9543f9b7ac42be2e5e02db 1519791973
+dir /usr/bin
+obj /usr/bin/w3m cc706ac187c2ed873b1364db3017e12d 1519791974
+obj /usr/bin/w3mman 29a14b6c59bc603c44a20133bf188e53 1519791973
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/w3m-0.5.3-r9
+obj /usr/share/doc/w3m-0.5.3-r9/ChangeLog.bz2 30c36ea6d52dd5e4a9dba17adca438f3 1519791973
+obj /usr/share/doc/w3m-0.5.3-r9/TODO.bz2 1d64a5ba7913ed82ec760e865d99e197 1519791973
+obj /usr/share/doc/w3m-0.5.3-r9/NEWS.bz2 75a7266c7e512acaeb7569965130a478 1519791973
+obj /usr/share/doc/w3m-0.5.3-r9/README.bz2 17cbcf81758dd74ddbce7ef070fcfa22 1519791973
+dir /usr/share/doc/w3m-0.5.3-r9/doc-en
+obj /usr/share/doc/w3m-0.5.3-r9/doc-en/w3m.1.bz2 0bb42aedc47aa812edcbb1dfac855a46 1519791973
+obj /usr/share/doc/w3m-0.5.3-r9/doc-en/menu.submenu.bz2 efd204d2cef7ee4f131e20d7960219af 1519791973
+obj /usr/share/doc/w3m-0.5.3-r9/doc-en/menu.default.bz2 4c8d7bac83a998175ceff15ba457c063 1519791973
+obj /usr/share/doc/w3m-0.5.3-r9/doc-en/keymap.lynx.bz2 0234739a3148f796f0f7e76d71cb1525 1519791973
+obj /usr/share/doc/w3m-0.5.3-r9/doc-en/keymap.default.bz2 9578ffc8dbf39f3aa65469e66a044519 1519791973
+obj /usr/share/doc/w3m-0.5.3-r9/doc-en/README.tab.bz2 2347734cf233167cfc9b12797008b398 1519791973
+obj /usr/share/doc/w3m-0.5.3-r9/doc-en/README.sixel.bz2 36320abf9fe48a0f6d2e062512884394 1519791973
+obj /usr/share/doc/w3m-0.5.3-r9/doc-en/README.siteconf.bz2 6f03e45edcffea52e00b1dc6804aa856 1519791973
+obj /usr/share/doc/w3m-0.5.3-r9/doc-en/README.pre_form.bz2 7578c313cab6b3e58d9c6ac9fa10d50a 1519791973
+obj /usr/share/doc/w3m-0.5.3-r9/doc-en/README.passwd.bz2 3da2b3f1e597168ebc5e1162edd31c6d 1519791973
+obj /usr/share/doc/w3m-0.5.3-r9/doc-en/README.mouse.bz2 355ce78c11b23df5ba68db85129d2aa0 1519791973
+obj /usr/share/doc/w3m-0.5.3-r9/doc-en/README.m17n.bz2 e1768b3625c170e32588f99c9a7aeca5 1519791973
+obj /usr/share/doc/w3m-0.5.3-r9/doc-en/README.img.bz2 c26f5b38f98972da6d1842e1bdef7bfc 1519791973
+obj /usr/share/doc/w3m-0.5.3-r9/doc-en/README.func.bz2 33b3ef7c20b0b027c336257185a27da0 1519791973
+obj /usr/share/doc/w3m-0.5.3-r9/doc-en/README.dict.bz2 7084bc0f171debb4d137f3ad9cc6b306 1519791973
+obj /usr/share/doc/w3m-0.5.3-r9/doc-en/README.cygwin.bz2 5367e592159aad9d19264e51ae197071 1519791973
+obj /usr/share/doc/w3m-0.5.3-r9/doc-en/README.cookie.bz2 1447d598bf91f1abb58b2e37b33c3473 1519791973
+obj /usr/share/doc/w3m-0.5.3-r9/doc-en/README.bz2 0dfcafd60aff6e48dd393cf4f3993cfe 1519791973
+obj /usr/share/doc/w3m-0.5.3-r9/doc-en/HISTORY.bz2 08e648b6d03e6839cf6b57c1feb49efd 1519791973
+obj /usr/share/doc/w3m-0.5.3-r9/doc-en/STORY.html 3b71362924b226e97526117e2ece1ac2 1519791973
+obj /usr/share/doc/w3m-0.5.3-r9/doc-en/MANUAL.html d0ae12826f26d3af63a1d36989e8a588 1519791973
+obj /usr/share/doc/w3m-0.5.3-r9/doc-en/FAQ.html dc73e8ebd2ccc51559e755d46e8e4068 1519791973
+dir /usr/share/man
+dir /usr/share/man/de
+dir /usr/share/man/de/man1
+obj /usr/share/man/de/man1/w3mman.1.bz2 d02660b63115300e0c1e3055d67ef3ba 1519791973
+obj /usr/share/man/de/man1/w3m.1.bz2 053187ac2b32f21b80db55431c99cb71 1519791973
+dir /usr/share/man/man1
+obj /usr/share/man/man1/w3mman.1.bz2 2bd4d730f668a679357edf160bcbf9ef 1519791973
+obj /usr/share/man/man1/w3m.1.bz2 0bb42aedc47aa812edcbb1dfac855a46 1519791973
+dir /usr/share/w3m
+dir /usr/share/w3m/Bonus
+obj /usr/share/w3m/Bonus/wrap3m 23f85f345b0be56bbabd32933b044423 1519791973
+obj /usr/share/w3m/Bonus/utf8.cgi 4d6a637db9de123e02abf65c2ea237a3 1519791973
+obj /usr/share/w3m/Bonus/smb.cgi 1b2b6214705ca394a81a17693c676fd6 1519791973
+obj /usr/share/w3m/Bonus/scanhist.rb 76e1e2ee910f7e7340b7a61fd0b5a8bf 1519791973
+obj /usr/share/w3m/Bonus/oldconfigure.sh 93cd33f31d9d3635b9fd6ebcc8165cc2 1519791973
+obj /usr/share/w3m/Bonus/makeref 9e1802c3f4b67b652f71c08886d46f5d 1519791973
+obj /usr/share/w3m/Bonus/htmldump a860185934b9a98ccd36f0700c6fb72c 1519791973
+obj /usr/share/w3m/Bonus/html2latex a9c7346d7987276858d2833d87160dd3 1519791973
+obj /usr/share/w3m/Bonus/google.cgi 233ad4db6a7f4066bf19d6f38c4b9e60 1519791973
+obj /usr/share/w3m/Bonus/goodict.cgi 08289372d347ff78f7f41c886fc5e80e 1519791973
+obj /usr/share/w3m/Bonus/backslash_to_slash.cgi a793ec4efc233beaac8dc4315f0ced6d 1519791973
+obj /usr/share/w3m/Bonus/README.eng 9f1f0141cd13ae3b6ea5d123c2d074d3 1519791973
+obj /usr/share/w3m/Bonus/README f08e277bc9c79df21435de41553ef711 1519791973
+obj /usr/share/w3m/Bonus/2ch.cgi ced1b79b6837559641f1ba2bbb92e2fa 1519791973
+obj /usr/share/w3m/w3mhelp-funcname.pl f0af0b9bd940d3b0aead31de2dbeb8d3 1519791973
+obj /usr/share/w3m/w3mhelp-funcdesc.ja.pl 0462fb5c83837ef0fe5d20299655de72 1519791973
+obj /usr/share/w3m/w3mhelp-funcdesc.en.pl ae2a1cef0f885915800e6afbc9db18e0 1519791973
+obj /usr/share/w3m/w3mhelp-funcdesc.de.pl 372f574655129236a088d9c791889c42 1519791973
+obj /usr/share/w3m/w3mhelp.html e3859317d8dd093ee6e81882ddc51465 1519791973
+dir /usr/share/locale
+dir /usr/share/locale/zh_CN
+dir /usr/share/locale/zh_CN/LC_MESSAGES
+obj /usr/share/locale/zh_CN/LC_MESSAGES/w3m.mo c18ae6e67efbff468730684a2c169b39 1519791973

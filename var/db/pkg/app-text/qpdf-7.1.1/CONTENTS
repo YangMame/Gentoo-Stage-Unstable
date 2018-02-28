@@ -1,0 +1,54 @@
+dir /usr
+dir /usr/share
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/zlib-flate.1.bz2 06d8e9ffc05785fac04116fb6cfa35fc 1519787597
+obj /usr/share/man/man1/qpdf.1.bz2 d012566424e77a4faf692195efcae947 1519787597
+dir /usr/share/doc
+dir /usr/share/doc/qpdf-7.1.1
+obj /usr/share/doc/qpdf-7.1.1/TODO.bz2 ef29b2b9a9bff791c6cd385f6fdc6a62 1519787598
+obj /usr/share/doc/qpdf-7.1.1/README.md.bz2 a5a6a97c45c8d184a96f159415a06993 1519787598
+obj /usr/share/doc/qpdf-7.1.1/ChangeLog.bz2 2d435a10c55f38f5a1d44e59475da681 1519787598
+obj /usr/share/doc/qpdf-7.1.1/qpdf-manual.pdf ca8e3caed8ed0e071b96541420543a94 1519787597
+obj /usr/share/doc/qpdf-7.1.1/qpdf-manual.html 4eae7407120ee02d5b47bbba03a575e7 1519787597
+obj /usr/share/doc/qpdf-7.1.1/stylesheet.css 96964ea207fbf9ca7978287569daec43 1519787597
+dir /usr/include
+dir /usr/include/qpdf
+obj /usr/include/qpdf/RandomDataProvider.hh 161e4dbbfbf4a1e1bef93bf242f9afcf 1519787597
+obj /usr/include/qpdf/QUtil.hh 9340ba87c75a2fa8ed9004b3fb653c89 1519787597
+obj /usr/include/qpdf/QTC.hh 9dc0ae6cb4f332e08c42d93afb02fb44 1519787597
+obj /usr/include/qpdf/QPDFXRefEntry.hh c4b46292adbe9fdc6721533e7d63264a 1519787597
+obj /usr/include/qpdf/QPDFWriter.hh 034252c81ab01aca49e4ec4b7e5b7e1d 1519787597
+obj /usr/include/qpdf/QPDFTokenizer.hh f057d879da1d2fa411314a2bdf5e2a28 1519787597
+obj /usr/include/qpdf/QPDFObjectHandle.hh 2a3e3bfbaf2cd303155488cf711e727b 1519787597
+obj /usr/include/qpdf/QPDFObject.hh a6d5ef281858489739d98f68e86683f5 1519787597
+obj /usr/include/qpdf/QPDFObjGen.hh af0deb88a90ec320d2d9a9834a2df43d 1519787597
+obj /usr/include/qpdf/QPDFExc.hh 8bb9a5aa91fb1ef8d0b34862780728ef 1519787597
+obj /usr/include/qpdf/QPDF.hh c7d46793156af7d6ca23742be21949c8 1519787597
+obj /usr/include/qpdf/PointerHolder.hh 06e072ca354203ace7bf438429aec771 1519787597
+obj /usr/include/qpdf/Pl_StdioFile.hh 38c2818aa979bae8d601d20d1933fd0b 1519787597
+obj /usr/include/qpdf/Pl_RunLength.hh bec747dcd44619d9de73b62792334d71 1519787597
+obj /usr/include/qpdf/Pl_Flate.hh 0514adfdffe306329794983ff63eb924 1519787597
+obj /usr/include/qpdf/Pl_Discard.hh bb3a48177e274f5a2e9c51b351a984b4 1519787597
+obj /usr/include/qpdf/Pl_DCT.hh 4a9eb7e9247feb773753077aa080c36a 1519787597
+obj /usr/include/qpdf/Pl_Count.hh 08a2bb180ab1c83d3eda5ed91239c132 1519787597
+obj /usr/include/qpdf/Pl_Concatenate.hh 190830900a069425723f8bf571cb96e8 1519787597
+obj /usr/include/qpdf/Pl_Buffer.hh 0ef64471eb6785009ee55e8100f3f901 1519787597
+obj /usr/include/qpdf/Pipeline.hh 04168b6c3f04f7265f8a02e1927909c1 1519787597
+obj /usr/include/qpdf/InputSource.hh f12bff4b104b239c2517a69603125d6b 1519787597
+obj /usr/include/qpdf/FileInputSource.hh dbb37d1d1ad8ed1770d12644405f41fb 1519787597
+obj /usr/include/qpdf/BufferInputSource.hh 87b1889f13f8d05b6881ef088b8cf120 1519787597
+obj /usr/include/qpdf/Buffer.hh 267269132b2c29657f76025e275a49fd 1519787597
+obj /usr/include/qpdf/qpdf-c.h f5725330a468f4d3a9dd1fd1e0fd66a1 1519787597
+obj /usr/include/qpdf/Types.h 666a98bb2fb0daddc7919c4e03662346 1519787597
+obj /usr/include/qpdf/DLL.h 31534bada8bf86301e348307b59f5944 1519787597
+obj /usr/include/qpdf/Constants.h f8feeaccaa0105d7be16e7aa6b40bd06 1519787597
+dir /usr/bin
+obj /usr/bin/qpdf 902c25885e30db87fb71be5b1bdd7ca9 1519787598
+obj /usr/bin/zlib-flate 9d3fba811ecf8a512237ed8a147699ef 1519787598
+dir /usr/lib64
+obj /usr/lib64/libqpdf.so.18.2.1 8876a805d10aea0d381b54a823c926ff 1519787598
+sym /usr/lib64/libqpdf.so -> libqpdf.so.18.2.1 1519787597
+sym /usr/lib64/libqpdf.so.18 -> libqpdf.so.18.2.1 1519787597
+dir /usr/lib64/pkgconfig
+obj /usr/lib64/pkgconfig/libqpdf.pc 3c158ecc21664d149ef548f485451187 1519787597

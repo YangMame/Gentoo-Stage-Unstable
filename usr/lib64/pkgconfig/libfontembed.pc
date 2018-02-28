@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=/usr
+libdir=/usr/lib64
+includedir=${prefix}/include
+                                                                       
+Name: libfontembed
+Description: Library for de/embedding fonts to pdf
+Version: 1.20.0
+
+Libs: -L${libdir} -lfontembed
+Cflags: -I${includedir}/fontembed

@@ -1,0 +1,37 @@
+dir /usr
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/libunistring-0.9.8
+obj /usr/share/doc/libunistring-0.9.8/BUGS.bz2 2dde368760f8e0792c4bc8bd5fbac97d 1519782484
+obj /usr/share/doc/libunistring-0.9.8/NEWS.bz2 9a9f2d273d2c46937f99c29f2483a99a 1519782483
+obj /usr/share/doc/libunistring-0.9.8/AUTHORS.bz2 338fb473fd0847175dc0c07c30520088 1519782483
+obj /usr/share/doc/libunistring-0.9.8/ChangeLog.bz2 b6760b2a587c505604edd5005bb114cc 1519782483
+obj /usr/share/doc/libunistring-0.9.8/README.windows.bz2 f7e39960382e60dcf4f794cac6b5d0d4 1519782483
+obj /usr/share/doc/libunistring-0.9.8/README.bz2 9eba718bcbfb36c13c9a7cdefcd77186 1519782483
+obj /usr/share/doc/libunistring-0.9.8/THANKS 30b99a5f82bd478ca34859d562fc661c 1519782483
+dir /usr/include
+obj /usr/include/unicase.h 7a386b48e9c73742256eff187ffcaa61 1519782483
+obj /usr/include/uninorm.h 32ed14aaeef49808e2e452cf0de04cc4 1519782483
+obj /usr/include/unilbrk.h beb574a32bdcbbfd92f8dbb27f7a6f99 1519782483
+obj /usr/include/uniwbrk.h f1722825f97b1dd4c97b3361d28b080c 1519782483
+obj /usr/include/unigbrk.h 53b070eb3d1c16e8a063653264f5cb7d 1519782483
+obj /usr/include/uniwidth.h 2fd176e16ff340e15a63921336c6af4c 1519782483
+obj /usr/include/unictype.h 45f157caa1c82fa9759cfa7c8c85da0c 1519782483
+obj /usr/include/uniname.h 3ebad831551873a6d126ecbcae986b78 1519782483
+obj /usr/include/unistdio.h 74bc7399347ff9c2c57364abe8bf2212 1519782483
+obj /usr/include/uniconv.h 02b737c9a54e750118a62c44f4d66970 1519782483
+obj /usr/include/unistr.h f97f5b0c93a95e4291e8b30742ba244b 1519782483
+obj /usr/include/unitypes.h beec6e711a2418d27b04f5b7aef15552 1519782483
+dir /usr/include/unistring
+obj /usr/include/unistring/inline.h f6f4d5d29a916abd525737aaf2e9978e 1519782483
+obj /usr/include/unistring/woe32dll.h f7c7eceb9d4481911cfaba5141ffb0dd 1519782483
+obj /usr/include/unistring/cdefs.h ad82c12d955da2eced2a7aa1d586c5c2 1519782483
+obj /usr/include/unistring/version.h f560884261ce475cb3868a9407e3779d 1519782483
+obj /usr/include/unistring/iconveh.h b9b11173d8fce406e01ad6fe75b4b81d 1519782483
+obj /usr/include/unistring/localcharset.h a63c467f6c7607abca6852fb782e2a9e 1519782483
+obj /usr/include/unistring/stdint.h 0d706cb7b5b42ad855e87ae712a58374 1519782483
+obj /usr/include/unistring/stdbool.h e5cb373c8d6ab4c907d27953caf5fc92 1519782483
+dir /usr/lib64
+obj /usr/lib64/libunistring.so.2.1.0 d1368c7bfce960390276aa095197e618 1519782484
+sym /usr/lib64/libunistring.so -> libunistring.so.2.1.0 1519782483
+sym /usr/lib64/libunistring.so.2 -> libunistring.so.2.1.0 1519782483

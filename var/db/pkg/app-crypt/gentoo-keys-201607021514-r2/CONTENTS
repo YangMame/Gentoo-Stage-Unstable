@@ -1,0 +1,11 @@
+dir /var
+dir /var/lib
+dir /var/lib/gentoo
+dir /var/lib/gentoo/gkeys
+dir /var/lib/gentoo/gkeys/keyrings
+dir /var/lib/gentoo/gkeys/keyrings/gentoo
+dir /var/lib/gentoo/gkeys/keyrings/gentoo/release
+obj /var/lib/gentoo/gkeys/keyrings/gentoo/release/trustdb.gpg 79435b6facd2d769f4b6a3b5ec4af5de 1519782262
+obj /var/lib/gentoo/gkeys/keyrings/gentoo/release/secring.gpg d41d8cd98f00b204e9800998ecf8427e 1519782262
+obj /var/lib/gentoo/gkeys/keyrings/gentoo/release/gkey.seeds 051cc4675c370e371dd3ce8afeca7c46 1519782262
+obj /var/lib/gentoo/gkeys/keyrings/gentoo/release/pubring.gpg 54c1ed77f7702f0dc1dac6c81eefd859 1519782262

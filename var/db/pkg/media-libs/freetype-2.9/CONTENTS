@@ -1,0 +1,78 @@
+dir /usr
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/freetype-2.9
+obj /usr/share/doc/freetype-2.9/TODO.bz2 73db90c5a9d9673a29afea025806ceee 1519782749
+obj /usr/share/doc/freetype-2.9/PROBLEMS.bz2 023fba15063adeba614d61324b7b58e2 1519782749
+obj /usr/share/doc/freetype-2.9/raster.txt.bz2 9dc9c50b8a029a17069b18ce3963763f 1519782749
+obj /usr/share/doc/freetype-2.9/formats.txt.bz2 f839f80777996d19f0bef7223504bde9 1519782749
+obj /usr/share/doc/freetype-2.9/INSTALL.UNIX.bz2 9190b447169595b085119e7724aef66f 1519782749
+obj /usr/share/doc/freetype-2.9/DEBUG.bz2 68726f2b4263ccc9b9275a78ae27a903 1519782749
+obj /usr/share/doc/freetype-2.9/CUSTOMIZE.bz2 157233dffa3650e8813cb1ec17827201 1519782749
+obj /usr/share/doc/freetype-2.9/CHANGES.bz2 00aa9ee95e32280dc8bc46ea687e51e3 1519782749
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/freetype-config.1.bz2 8a610a39d3774c78a0e2c1bca38a8087 1519782749
+dir /usr/share/aclocal
+obj /usr/share/aclocal/freetype2.m4 f5783d7df0ab5e64f602becd4d164aff 1519782749
+dir /usr/bin
+obj /usr/bin/freetype-config f40fe505a4cd0e71bb4b03ed545d1ba3 1519782749
+dir /usr/include
+dir /usr/include/freetype2
+obj /usr/include/freetype2/ft2build.h a8ca7e15483b31338fb99a209e764c9b 1519782749
+dir /usr/include/freetype2/freetype
+obj /usr/include/freetype2/freetype/ttnameid.h 2063f33f968bf2ede85960e0bac9dd9e 1519782749
+obj /usr/include/freetype2/freetype/ftimage.h d0ebb9ebe2e1a937e67c4a1d9c9269ba 1519782749
+obj /usr/include/freetype2/freetype/fttrigon.h a15e29ae3a8e11d8a2f9e91013926016 1519782749
+obj /usr/include/freetype2/freetype/fterrdef.h 3a8bc9d75f250aab697f9e04103b4de4 1519782749
+obj /usr/include/freetype2/freetype/tttags.h 60eeddf22b67ab902e0c5db6c1c36723 1519782749
+obj /usr/include/freetype2/freetype/ftsnames.h 3a667303d222d1ac08fc92f7b3b27cbf 1519782749
+obj /usr/include/freetype2/freetype/ftgasp.h 01cb17b5b418c8f60796fe6eb42a120c 1519782749
+obj /usr/include/freetype2/freetype/ftmoderr.h 90b1948445fe2e91f5660248d9cee617 1519782749
+obj /usr/include/freetype2/freetype/ftadvanc.h e91a33c8db8772561b727c1bfcc2d81b 1519782749
+obj /usr/include/freetype2/freetype/ftmm.h ee6c9e89056cb98c8952af4a0bb27368 1519782749
+obj /usr/include/freetype2/freetype/ftbbox.h 58a9c5fbc50110dcb5c1051c6c7b6cd3 1519782749
+obj /usr/include/freetype2/freetype/ftotval.h 40c4d40a20e4d6fcec79f2db96c0ad40 1519782749
+obj /usr/include/freetype2/freetype/fttypes.h 3fbf81ec869cd9cfb5079863b6486d5c 1519782749
+obj /usr/include/freetype2/freetype/freetype.h 211ed013af6533c1123a2280d26ced44 1519782749
+obj /usr/include/freetype2/freetype/ftmac.h 52af29192a5fa962868d2c45e41e7814 1519782749
+obj /usr/include/freetype2/freetype/ftdriver.h d3fdd9829783b0f7f5edb3afecfe905b 1519782749
+obj /usr/include/freetype2/freetype/ftwinfnt.h ffa10b962425ce5040d34a4bd86c28f7 1519782749
+obj /usr/include/freetype2/freetype/ftgzip.h f134959dc18b0a3530a7574a92ff72c7 1519782749
+obj /usr/include/freetype2/freetype/ftgxval.h e85924ba68481761149ab27971ae0306 1519782749
+obj /usr/include/freetype2/freetype/ftcache.h 9cbd1eb0d04289ac8d87f43393316a43 1519782749
+obj /usr/include/freetype2/freetype/ftbdf.h d9c6b7826ae3139e1a149c47b87d06e1 1519782749
+obj /usr/include/freetype2/freetype/ftchapters.h b96594144a4734d5ba60ba5147595f72 1519782749
+obj /usr/include/freetype2/freetype/ftincrem.h 391ec81952323fdb1135eff66ead5066 1519782749
+obj /usr/include/freetype2/freetype/ftlist.h 72f1b81383d0b4df235414103be7fdff 1519782749
+obj /usr/include/freetype2/freetype/ftbzip2.h 0b6828093df6c9ca789a5b87e64809ec 1519782749
+obj /usr/include/freetype2/freetype/ftoutln.h fc367898feaaafbfdd182ca8b1a72754 1519782749
+obj /usr/include/freetype2/freetype/ftlzw.h 159de816ef44da7392ef60fb70c87fd5 1519782749
+obj /usr/include/freetype2/freetype/ftrender.h 5128db4583f7de2d8c9cdebb1ad97f55 1519782749
+obj /usr/include/freetype2/freetype/ftsizes.h f8b1cd7061a263187b8695e919488941 1519782749
+obj /usr/include/freetype2/freetype/ftpfr.h 440bbd15780a4815ca3aac14ce0f11ca 1519782749
+obj /usr/include/freetype2/freetype/ftlcdfil.h a9b2cf0c08ca5bce808fa83443b5dd32 1519782749
+obj /usr/include/freetype2/freetype/ftsynth.h d408b91dc1a5c418adbbfd8d6c34e2f1 1519782749
+obj /usr/include/freetype2/freetype/ftfntfmt.h 8ac94cffba8033a496852250981b4673 1519782749
+obj /usr/include/freetype2/freetype/ftsystem.h fd099ef6a7b2171583400adbd9f81dc4 1519782749
+obj /usr/include/freetype2/freetype/ftmodapi.h 85a882f36cd60e10ff6afc2074e86364 1519782749
+obj /usr/include/freetype2/freetype/ftbitmap.h 3b6ada8270355d550169e83786f9cd0f 1519782749
+obj /usr/include/freetype2/freetype/ftglyph.h 8008c728c9b1c07655b7966867886a24 1519782749
+obj /usr/include/freetype2/freetype/ftparams.h 90918a9b8a946e6551e1169b03af67c1 1519782749
+obj /usr/include/freetype2/freetype/fterrors.h 9dc7f285226d313ec5f6f03958838e3e 1519782749
+obj /usr/include/freetype2/freetype/t1tables.h 04fff3ff230d55b53253bc265da29e6d 1519782749
+obj /usr/include/freetype2/freetype/ftstroke.h d7ac4e08d23c8b258efc3f72f6a41c4d 1519782748
+obj /usr/include/freetype2/freetype/ftcid.h 4dc365cd7201cdf75794944b8b6ab965 1519782748
+obj /usr/include/freetype2/freetype/tttables.h 0fdcb0d8cc30f6455f6f51b213cf78ec 1519782748
+dir /usr/include/freetype2/freetype/config
+obj /usr/include/freetype2/freetype/config/ftoption.h 5b97d8c93589a52383f78e3985748830 1519782749
+obj /usr/include/freetype2/freetype/config/ftmodule.h d276085a38bf89a184fb472d796025e1 1519782749
+obj /usr/include/freetype2/freetype/config/ftconfig.h 9afd5be2c68517546ca0655fe0cb0f2c 1519782749
+obj /usr/include/freetype2/freetype/config/ftheader.h 2a885b5f32d56fcac5b1570b4d4c1c94 1519782749
+obj /usr/include/freetype2/freetype/config/ftstdlib.h ea929f68033e38cf92109bcd9bbf78c2 1519782749
+dir /usr/lib64
+obj /usr/lib64/libfreetype.so.6.16.0 ea31a24ed70dfd5f79e4f311fa365a6c 1519782749
+sym /usr/lib64/libfreetype.so -> libfreetype.so.6.16.0 1519782748
+sym /usr/lib64/libfreetype.so.6 -> libfreetype.so.6.16.0 1519782748
+dir /usr/lib64/pkgconfig
+obj /usr/lib64/pkgconfig/freetype2.pc 26acb385e6c7b9bad927a983764b9825 1519782749

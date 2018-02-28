@@ -1,0 +1,11 @@
+dir /usr
+dir /usr/bin
+obj /usr/bin/ninja 2e775aba7cb9f3bfc912782b22f0e9a8 1519788078
+dir /usr/share
+dir /usr/share/bash-completion
+dir /usr/share/bash-completion/completions
+obj /usr/share/bash-completion/completions/ninja 8f9e41c1a0b3e4f7e3bf135bedc9ff00 1519788078
+dir /usr/share/doc
+dir /usr/share/doc/ninja-1.8.2
+obj /usr/share/doc/ninja-1.8.2/HACKING.md.bz2 b7bd4b43d06f00a541c02d9d48609a46 1519788078
+obj /usr/share/doc/ninja-1.8.2/README.bz2 7838ebf571b4c9ed59ddbfc47e0312b0 1519788078

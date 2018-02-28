@@ -1,0 +1,19 @@
+dir /etc
+dir /etc/xdg
+dir /etc/xdg/autostart
+obj /etc/xdg/autostart/polkit-gnome-authentication-agent-1.desktop bbad81af78d22710dd54c3ae6d152b43 1519794734
+dir /usr
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/polkit-gnome-0.105-r1
+obj /usr/share/doc/polkit-gnome-0.105-r1/README.bz2 a2e860f1cd895074577bff32162aa691 1519794734
+obj /usr/share/doc/polkit-gnome-0.105-r1/NEWS.bz2 5e33d7e509b28ec629364cbbdc6a192c 1519794734
+obj /usr/share/doc/polkit-gnome-0.105-r1/HACKING.bz2 611b1a6b3ba0f4a664e735a419a2c9dd 1519794734
+obj /usr/share/doc/polkit-gnome-0.105-r1/TODO 41c2918922a775ab874c110b99ccfcae 1519794734
+obj /usr/share/doc/polkit-gnome-0.105-r1/AUTHORS 0b067ef85a51e7237045d5f3a4829d2e 1519794734
+dir /usr/share/locale
+dir /usr/share/locale/zh_CN
+dir /usr/share/locale/zh_CN/LC_MESSAGES
+obj /usr/share/locale/zh_CN/LC_MESSAGES/polkit-gnome-1.mo f8f42b77a22d3c0fd6c774b3e4fcb49e 1519794734
+dir /usr/libexec
+obj /usr/libexec/polkit-gnome-authentication-agent-1 51097033994be76057e94d896547396c 1519794734

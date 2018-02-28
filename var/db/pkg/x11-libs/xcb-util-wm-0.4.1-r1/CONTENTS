@@ -1,0 +1,21 @@
+dir /usr
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/xcb-util-wm-0.4.1-r1
+obj /usr/share/doc/xcb-util-wm-0.4.1-r1/ChangeLog.bz2 c29e230ae9b25ce88598e7ffe5ae05e5 1519788432
+obj /usr/share/doc/xcb-util-wm-0.4.1-r1/NEWS.bz2 1dab41556dceff68c24c3171a1301f64 1519788432
+obj /usr/share/doc/xcb-util-wm-0.4.1-r1/README.bz2 d55015fdaacdaa3978fcaf10fda0ca46 1519788432
+dir /usr/include
+dir /usr/include/xcb
+obj /usr/include/xcb/xcb_ewmh.h ab16df3f352bfb5344ddd5562e1f9e97 1519788432
+obj /usr/include/xcb/xcb_icccm.h 5ee7a82ce1537389dede0d8e762fffcc 1519788432
+dir /usr/lib64
+obj /usr/lib64/libxcb-ewmh.so.2.0.0 dd36fa838e8aa7c49795679f9077e08d 1519788433
+obj /usr/lib64/libxcb-icccm.so.4.0.0 f66a33ea1ba01a891b2b09a3508f74c7 1519788433
+sym /usr/lib64/libxcb-ewmh.so -> libxcb-ewmh.so.2.0.0 1519788432
+sym /usr/lib64/libxcb-ewmh.so.2 -> libxcb-ewmh.so.2.0.0 1519788432
+sym /usr/lib64/libxcb-icccm.so -> libxcb-icccm.so.4.0.0 1519788432
+sym /usr/lib64/libxcb-icccm.so.4 -> libxcb-icccm.so.4.0.0 1519788432
+dir /usr/lib64/pkgconfig
+obj /usr/lib64/pkgconfig/xcb-ewmh.pc a7e6481754bddfcbb5436457c72b9345 1519788432
+obj /usr/lib64/pkgconfig/xcb-icccm.pc d89de14ec91a3381a8749e17a621d9c1 1519788432

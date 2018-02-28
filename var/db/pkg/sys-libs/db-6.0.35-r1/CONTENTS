@@ -1,0 +1,48 @@
+dir /usr
+dir /usr/sbin
+dir /usr/lib64
+obj /usr/lib64/libdb_stl-6.0.a b11dba56fed9141369f26fbded456f94 1519786762
+obj /usr/lib64/libdb_cxx-6.0.a 25a93029dd5c2ed0c5569aa0b39e606e 1519786762
+obj /usr/lib64/libdb-6.0.a 561739bdca3ef4bb624dd108a762fdbc 1519786762
+obj /usr/lib64/libdb_cxx-6.0.so 09e73bc97f6b5274c83cf7a4c0784172 1519786761
+obj /usr/lib64/libdb-6.0.so 45f1c236146d9d6861fcdea0778633a8 1519786761
+obj /usr/lib64/libdb_stl-6.0.so 96825bfa4c23bb834912ddb88200d1b2 1519786761
+obj /usr/lib64/libdb_stl-6.0.la f8499f4eb1c36bcd31da7d5fb87604a0 1519786759
+obj /usr/lib64/libdb_cxx-6.0.la bd2e04b7cd10d579e51c46da5e1506d2 1519786758
+obj /usr/lib64/libdb-6.0.la 1183416bfa15a32b07317b23314c9e68 1519786758
+dir /usr/include
+dir /usr/include/x86_64-pc-linux-gnu
+dir /usr/include/x86_64-pc-linux-gnu/db6.0
+obj /usr/include/x86_64-pc-linux-gnu/db6.0/db.h 5e51878906fd8cb6d6347bb2ed9199a0 1519786698
+dir /usr/include/db6.0
+obj /usr/include/db6.0/db.h 49a91036db3b3fb9ca0e199ab399e071 1519786760
+obj /usr/include/db6.0/dbstl_vector.h 044337f1fa6bc803bb8b97128e679a39 1425502963
+obj /usr/include/db6.0/dbstl_utility.h a4fb5894456cae35068806e243d90e26 1425502963
+obj /usr/include/db6.0/dbstl_set.h a25866f5c8148f29914feec8e4b8e70e 1425502963
+obj /usr/include/db6.0/dbstl_resource_manager.h 1f5d1170f9a309891a04cf7fcbab92c4 1425502963
+obj /usr/include/db6.0/dbstl_map.h a4ca5802b0a284a75b956a57d17ff2cd 1425502963
+obj /usr/include/db6.0/dbstl_inner_utility.h 622198cc645f900568b98cac96f8e2e8 1425502963
+obj /usr/include/db6.0/dbstl_exception.h 9ff323ba88209da1df42266bf78e0836 1425502963
+obj /usr/include/db6.0/dbstl_element_ref.h 31008116b6f314d74823b2687da6a267 1425502963
+obj /usr/include/db6.0/dbstl_dbt.h 1e10a1c4307920f0957893be79929bfb 1425502963
+obj /usr/include/db6.0/dbstl_dbc.h 04ea5303a4ba17750e7f1e0df8e6307c 1425502963
+obj /usr/include/db6.0/dbstl_container.h a68556e11fa65d1754301012d7d49905 1425502963
+obj /usr/include/db6.0/dbstl_common.h bb9008132c3cd8d19a01c12f5955a99c 1519786698
+obj /usr/include/db6.0/dbstl_base_iterator.h 7287c501992405f578ffe08536780b44 1425502963
+obj /usr/include/db6.0/db_cxx.h 8b01d6a29bfbec6520c9770cedf6a1d3 1519786698
+obj /usr/include/db6.0/db_185.h eeb7f99c7578e52e1ac6136e2693fe4b 1519786698
+dir /usr/bin
+obj /usr/bin/db6.0_verify 6ba9dcf4e24c0fb9649c20291e0f032e 1519786762
+obj /usr/bin/db6.0_upgrade fd8ca23c16febd38a250dc776c4dcc51 1519786762
+obj /usr/bin/db6.0_tuner 3a6d36f2e2dc601861995f3d3e556b76 1519786762
+obj /usr/bin/db6.0_stat 0e0a343d2ea520d34b1a7c889c47990d 1519786762
+obj /usr/bin/db6.0_replicate 985b1d30fcf86bc9b2d6700dc7b223bb 1519786762
+obj /usr/bin/db6.0_recover 5717ee7659b49dd22f61d53c91674ac8 1519786762
+obj /usr/bin/db6.0_printlog 3a187272d70865e6530161a0424fa076 1519786762
+obj /usr/bin/db6.0_log_verify 43e77b7581ba80d9196d62c130e09134 1519786762
+obj /usr/bin/db6.0_load 0c2c2003bac1e91968e361d8347e2051 1519786762
+obj /usr/bin/db6.0_hotbackup 5cb861a55d0efe8b2cd8817adeabe7eb 1519786762
+obj /usr/bin/db6.0_dump 285ab907927e24a1dda3f7a7f05cf838 1519786761
+obj /usr/bin/db6.0_deadlock 97cfd7a8b19eb3bc7c5fa5027834210b 1519786761
+obj /usr/bin/db6.0_checkpoint 9ce0d0f93ea4d0ef035be6ff7226979f 1519786761
+obj /usr/bin/db6.0_archive 040bbc080b55d0b1318a6b1d83221e01 1519786761

@@ -1,0 +1,1 @@
+dev-libs/openssl:0/0= sys-libs/zlib dev-libs/libpcre2[jit(+)] dev-lang/perl:0/5.26=[-build(-)] net-misc/curl dev-libs/expat sys-devel/gettext virtual/pkgconfig

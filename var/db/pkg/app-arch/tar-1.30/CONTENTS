@@ -1,0 +1,33 @@
+dir /etc
+obj /etc/rmt 9571f0a7864334a6c6bb069f647558fa 1519786434
+dir /bin
+obj /bin/tar b3a8e494fa8cc188d7ae7b441890bc05 1519786434
+dir /usr
+dir /usr/sbin
+obj /usr/sbin/rmt e85607d58daf26f9fcca153e572be1e1 1519786434
+obj /usr/sbin/restore-tar 08b695d41de486fda20fa9d63eec8f48 1519786433
+obj /usr/sbin/backup-tar 67d917db053fc15e020361dc0313d3d6 1519786433
+obj /usr/sbin/dump-remind c44c3d760e454b28065e4957247333e4 1519786433
+obj /usr/sbin/backup.sh c2ff144f8b6101ec0963d2b87ee9e313 1519786433
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/tar-1.30
+obj /usr/share/doc/tar-1.30/THANKS.bz2 dd489f9765edfd0c89dd78a93daf100a 1519786434
+obj /usr/share/doc/tar-1.30/TODO.bz2 0448a9c34b3c542f9a26b7f6f2280cf7 1519786433
+obj /usr/share/doc/tar-1.30/NEWS.bz2 065229d6ac2a93f42d39ebadb4b45c9f 1519786433
+obj /usr/share/doc/tar-1.30/AUTHORS.bz2 4b1cdbae3b6a3ff76e68120cbc08b10e 1519786433
+obj /usr/share/doc/tar-1.30/ChangeLog.bz2 f582b6179dda6e3dd8d112dd36fd1862 1519786433
+obj /usr/share/doc/tar-1.30/README.bz2 5f8f50019830e46754f5c21f49d3c110 1519786433
+dir /usr/share/locale
+dir /usr/share/locale/zh_CN
+dir /usr/share/locale/zh_CN/LC_MESSAGES
+obj /usr/share/locale/zh_CN/LC_MESSAGES/tar.mo b5241fdf8f27c856af4aa853e05dc999 1519786433
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/tar.1.bz2 a2a74e379c40553ad968e40af415648a 1519786433
+dir /usr/share/man/man8
+obj /usr/share/man/man8/rmt.8.bz2 c6fbcbd0501d0b02834df0fe7eb5f218 1519786433
+dir /usr/share/info
+obj /usr/share/info/tar.info-2.bz2 1cd1ef461ca24f4e0b47aca68ebfdbdc 1519786433
+obj /usr/share/info/tar.info-1.bz2 7e144caea33114a7690fea15bc345ec3 1519786433
+obj /usr/share/info/tar.info.bz2 b8533b0db9b020e75d41e8b1447f1051 1519786433

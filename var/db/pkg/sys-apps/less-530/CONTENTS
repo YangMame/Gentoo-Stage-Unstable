@@ -1,0 +1,19 @@
+dir /etc
+dir /etc/env.d
+obj /etc/env.d/70less c805eb302fa124719c8fc95a40e5eddc 1519789409
+dir /usr
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/less-530
+obj /usr/share/doc/less-530/NEWS.bz2 ddf2d7c2263f20ec8468f22e698f5bf9 1519789409
+obj /usr/share/doc/less-530/README.bz2 883019bfbeb7fb03735d7c23579586c1 1519789409
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/lessecho.1.bz2 be787702b43000b34400e6bbf2d8e1cc 1519789409
+obj /usr/share/man/man1/lesskey.1.bz2 eb36195275b8a8fc5298d9d03d7beba0 1519789409
+obj /usr/share/man/man1/less.1.bz2 b4fe36790ece264b950fe515d8a82bc0 1519789409
+dir /usr/bin
+obj /usr/bin/lesskey a78100f137477330360e4cd8dec194ec 1519789409
+obj /usr/bin/less caecc77f569e64fd3d8ff898dd364ece 1519789409
+obj /usr/bin/lessecho 2c5b2ced39a817d05c395a08207b12d9 1519789409
+obj /usr/bin/lesspipe 2eaffde5da15c8116aec56726441d549 1519789409

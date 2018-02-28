@@ -1,0 +1,1 @@
+/usr/lib/ConsoleKit/udev-acl

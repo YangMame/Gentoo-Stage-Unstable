@@ -1,0 +1,72 @@
+{
+	"info": {
+		"/usr/share/binutils-data/x86_64-pc-linux-gnu/2.29.1/info": 1519607399,
+		"/usr/share/binutils-data/x86_64-pc-linux-gnu/2.30/info": 1519792183,
+		"/usr/share/gcc-data/x86_64-pc-linux-gnu/6.4.0/info": 1519607398,
+		"/usr/share/gcc-data/x86_64-pc-linux-gnu/7.3.0/info": 1519792183,
+		"/usr/share/info": 1519796009
+	},
+	"ldpath": {
+		"/lib": 1519795099,
+		"/lib32": 1519782170,
+		"/lib64": 1519795099,
+		"/usr/lib": 1519795727,
+		"/usr/lib/llvm/5/lib64": 1519791440,
+		"/usr/lib32": 1519782732,
+		"/usr/lib64": 1519795727,
+		"/usr/local/lib": 1519595365,
+		"/usr/local/lib64": 1519595365
+	},
+	"resume_backup": {
+		"favorites": [
+			"@world"
+		],
+		"mergelist": [
+			[
+				"ebuild",
+				"/",
+				"dev-libs/libxml2-2.9.7",
+				"merge"
+			],
+			[
+				"ebuild",
+				"/",
+				"media-libs/harfbuzz-1.7.5",
+				"merge"
+			]
+		],
+		"myopts": {
+			"--deep": true,
+			"--keep-going": true,
+			"--newuse": true,
+			"--update": true,
+			"--verbose": true,
+			"--with-bdeps": "y"
+		}
+	},
+	"starttime": 0,
+	"updates": {
+		"/usr/portage/profiles/updates/1Q-2013": 1507814916,
+		"/usr/portage/profiles/updates/1Q-2014": 1514898616,
+		"/usr/portage/profiles/updates/1Q-2015": 1504468753,
+		"/usr/portage/profiles/updates/1Q-2016": 1517011742,
+		"/usr/portage/profiles/updates/1Q-2017": 1504468834,
+		"/usr/portage/profiles/updates/1Q-2018": 1519673930,
+		"/usr/portage/profiles/updates/2Q-2013": 1504468753,
+		"/usr/portage/profiles/updates/2Q-2014": 1439080698,
+		"/usr/portage/profiles/updates/2Q-2015": 1517701128,
+		"/usr/portage/profiles/updates/2Q-2016": 1504468753,
+		"/usr/portage/profiles/updates/2Q-2017": 1497573154,
+		"/usr/portage/profiles/updates/3Q-2013": 1504468753,
+		"/usr/portage/profiles/updates/3Q-2014": 1504468753,
+		"/usr/portage/profiles/updates/3Q-2015": 1504468834,
+		"/usr/portage/profiles/updates/3Q-2016": 1474975148,
+		"/usr/portage/profiles/updates/3Q-2017": 1506280848,
+		"/usr/portage/profiles/updates/4Q-2013": 1439080698,
+		"/usr/portage/profiles/updates/4Q-2014": 1504468753,
+		"/usr/portage/profiles/updates/4Q-2015": 1514592604,
+		"/usr/portage/profiles/updates/4Q-2016": 1517701128,
+		"/usr/portage/profiles/updates/4Q-2017": 1514603403
+	},
+	"version": "2.3.24"
+}

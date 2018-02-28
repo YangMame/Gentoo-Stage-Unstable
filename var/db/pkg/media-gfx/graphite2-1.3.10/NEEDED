@@ -1,0 +1,2 @@
+/usr/lib64/libgraphite2.so.3.0.1 libc.so.6
+/usr/bin/gr2fonttest libgraphite2.so.3,libstdc++.so.6,libc.so.6,libgcc_s.so.1

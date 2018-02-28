@@ -1,0 +1,30 @@
+dir /usr
+dir /usr/bin
+obj /usr/bin/gmake c3101064dd59ba80066fbda19cf94ce5 1519783067
+sym /usr/bin/make -> gmake 1519783067
+dir /usr/include
+obj /usr/include/gnumake.h 66713a091c235ca4419fcd56fbe7db02 1519783067
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/make-4.2.1-r2
+obj /usr/share/doc/make-4.2.1-r2/README.customs.bz2 68942bfddfc79c3ddba00e7ec3750489 1519783067
+obj /usr/share/doc/make-4.2.1-r2/README.W32.bz2 c36437fc416d671b09bb0633f9f211ea 1519783067
+obj /usr/share/doc/make-4.2.1-r2/README.VMS.bz2 dd6152ca0048217dcf1a89338acc0da1 1519783067
+obj /usr/share/doc/make-4.2.1-r2/README.OS2.bz2 1372fd1f0d6fc4606c8f722834143417 1519783067
+obj /usr/share/doc/make-4.2.1-r2/README.DOS.bz2 c62922a3086462fb9bd4cb5c55f70411 1519783067
+obj /usr/share/doc/make-4.2.1-r2/README.Amiga.bz2 5b3082252db4a92423fd3112eb1919f3 1519783067
+obj /usr/share/doc/make-4.2.1-r2/README.bz2 1badff197befa2cfa31da309ef88f658 1519783067
+obj /usr/share/doc/make-4.2.1-r2/NEWS.bz2 17b951168ffedd9d18d37d76872cc97c 1519783067
+obj /usr/share/doc/make-4.2.1-r2/AUTHORS.bz2 ea47ffb8d70373a8845391f4cda009e6 1519783067
+dir /usr/share/man
+dir /usr/share/man/man1
+sym /usr/share/man/man1/make.1.bz2 -> gmake.1.bz2 1519783068
+obj /usr/share/man/man1/gmake.1.bz2 88f5037b5e6a638a74441b391432c375 1519783067
+dir /usr/share/info
+obj /usr/share/info/make.info-2.bz2 77cfbb245bcb27510abb56ae3e03a432 1519783067
+obj /usr/share/info/make.info-1.bz2 b3e1a3d0b0c44516e8c7512a890f0cb9 1519783067
+obj /usr/share/info/make.info.bz2 c5ec1e77b055c4b2ea7e7493b4a36705 1519783067
+dir /usr/share/locale
+dir /usr/share/locale/zh_CN
+dir /usr/share/locale/zh_CN/LC_MESSAGES
+obj /usr/share/locale/zh_CN/LC_MESSAGES/make.mo 2129de3e1e8f227476cb534e064f4023 1519783067

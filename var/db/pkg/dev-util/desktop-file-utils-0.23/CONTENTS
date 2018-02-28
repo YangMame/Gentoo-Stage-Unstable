@@ -1,0 +1,20 @@
+dir /usr
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/desktop-file-utils-0.23
+obj /usr/share/doc/desktop-file-utils-0.23/README.bz2 7e07604af40450d995c1c849ed232f83 1519782940
+obj /usr/share/doc/desktop-file-utils-0.23/NEWS.bz2 4326b902da349f58b54ca4db8aa423e2 1519782940
+obj /usr/share/doc/desktop-file-utils-0.23/HACKING.bz2 d53c5d38eacb696d6d2ee183e86a6e7f 1519782940
+obj /usr/share/doc/desktop-file-utils-0.23/ChangeLog.bz2 01323dc168d0b44273b5bad8101f8478 1519782940
+obj /usr/share/doc/desktop-file-utils-0.23/AUTHORS 15a63df96238f561ddfba3525d6615de 1519782940
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/update-desktop-database.1.bz2 173644fa75d18d3d396d85d9256b5ec2 1519782940
+obj /usr/share/man/man1/desktop-file-install.1.bz2 18abc3d208ad5acd22db058dc49f671d 1519782940
+obj /usr/share/man/man1/desktop-file-validate.1.bz2 3c55411bdf4cc15bbe05e4b62b3d3d7c 1519782940
+dir /usr/bin
+obj /usr/bin/desktop-file-install 4792939fb7bffdf5e6c69b2da07d2f3c 1519782941
+obj /usr/bin/desktop-file-validate ee306952e6cb4da27074250f26e8427f 1519782941
+obj /usr/bin/update-desktop-database c44b37c7505b47842da8ecfab99643d9 1519782941
+sym /usr/bin/desktop-file-edit -> desktop-file-install 1519782940
+sym /usr/share/man/man1/desktop-file-edit.1.bz2 -> desktop-file-install.1.bz2 1519782941

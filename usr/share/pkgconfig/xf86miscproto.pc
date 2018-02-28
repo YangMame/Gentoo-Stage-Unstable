@@ -1,0 +1,8 @@
+prefix=/usr
+libdir=${prefix}/lib64
+includedir=${prefix}/include
+
+Name: xf86miscproto
+Description: xf86miscproto headers
+Version: 0.9.3
+Cflags: -I${includedir}

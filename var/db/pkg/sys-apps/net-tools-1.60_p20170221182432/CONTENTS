@@ -1,0 +1,34 @@
+dir /bin
+obj /bin/hostname 9df02d3100de056e5899203498907152 1519782374
+obj /bin/netstat 7bc2f00da94071ab02dbf2cabe714a4b 1519782374
+obj /bin/route 66ed655b30ab1437f81deeeff9785d60 1519782374
+obj /bin/ifconfig 3eebf8fbb68b88f718d3e79614ebab75 1519782374
+sym /bin/dnsdomainname -> hostname 1519782373
+dir /sbin
+obj /sbin/mii-tool e524360ff85491364717f3589c02dd9c 1519782374
+obj /sbin/iptunnel da05cf5880782959bb52e3bbb176f65e 1519782374
+obj /sbin/ipmaddr fea05edda8912b64e77eeefc8891bf8d 1519782374
+obj /sbin/rarp 7d29e23ba5412ba04dd49e14aab6aa69 1519782374
+obj /sbin/arp d6571c82d26d769b43d7a8e199f4ae0d 1519782374
+obj /sbin/nameif 48e9be6e760be9991c844f033c90b650 1519782374
+dir /usr
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/net-tools-1.60_p20170221182432
+obj /usr/share/doc/net-tools-1.60_p20170221182432/TODO.bz2 ea4ea479ae63e11bade3fba91a07ccf9 1519782373
+obj /usr/share/doc/net-tools-1.60_p20170221182432/THANKS.bz2 f974f37e6d67daa92f446a951b0afd7c 1519782373
+obj /usr/share/doc/net-tools-1.60_p20170221182432/README.bz2 7e3544864fa4eea43bd90b1135331f3d 1519782373
+dir /usr/share/man
+dir /usr/share/man/man8
+obj /usr/share/man/man8/route.8.bz2 7e3cf7d8b9ce00070d677831334174c2 1519782373
+obj /usr/share/man/man8/rarp.8.bz2 bdea06163f21ff7ff05d153cc426ac34 1519782373
+obj /usr/share/man/man8/netstat.8.bz2 8f53b5b2f9084794f46a784f1003c817 1519782373
+obj /usr/share/man/man8/nameif.8.bz2 2887340a4d256534948278e9fffda5ef 1519782373
+obj /usr/share/man/man8/mii-tool.8.bz2 327cafa2a76e9ee08cef383f7204cf1a 1519782373
+obj /usr/share/man/man8/ifconfig.8.bz2 bd6146da0b6215e3ee5fb4d6254ed2ce 1519782373
+obj /usr/share/man/man8/arp.8.bz2 261bb805e8a002792bdf54f5cd64ccda 1519782373
+dir /usr/share/man/man5
+obj /usr/share/man/man5/ethers.5.bz2 f89fca27f9512664a6df6fd57f7376f4 1519782373
+dir /usr/share/man/man1
+obj /usr/share/man/man1/hostname.1.bz2 99c4bff09680a9f1cf7e8a5d6fdbf751 1519782373
+obj /usr/share/man/man1/dnsdomainname.1 5cdb124540d178ea21f212b96af44b3b 1519782373

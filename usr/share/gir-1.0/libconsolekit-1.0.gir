@@ -1,0 +1,491 @@
+<?xml version="1.0"?>
+<!-- This file was automatically generated from C sources - DO NOT EDIT!
+To affect the contents of this file, edit the original C definitions,
+and/or use gtk-doc annotations.  -->
+<repository version="1.2"
+            xmlns="http://www.gtk.org/introspection/core/1.0"
+            xmlns:c="http://www.gtk.org/introspection/c/1.0"
+            xmlns:glib="http://www.gtk.org/introspection/glib/1.0">
+  <include name="GLib" version="2.0"/>
+  <include name="GObject" version="2.0"/>
+  <include name="Gio" version="2.0"/>
+  <package name="libconsolekit-1.0"/>
+  <namespace name="libconsolekit"
+             version="1.0"
+             shared-library="libconsolekit.so.1"
+             c:identifier-prefixes="Lib"
+             c:symbol-prefixes="lib_">
+    <class name="ConsoleKit"
+           c:symbol-prefix="consolekit"
+           c:type="LibConsoleKit"
+           parent="GObject.Object"
+           glib:type-name="LibConsoleKit"
+           glib:get-type="lib_consolekit_get_type"
+           glib:type-struct="ConsoleKitClass">
+      <doc xml:space="preserve">A #LibConsoleKit provides a way to easily query information from the ConsoleKit
+daemon.</doc>
+      <constructor name="new"
+                   c:identifier="lib_consolekit_new"
+                   version="1.0"
+                   introspectable="0">
+        <doc xml:space="preserve">Creates and returns a new instance of #LibConsoleKit.</doc>
+        <return-value transfer-ownership="full">
+          <doc xml:space="preserve">a new instance of #LibConsoleKit.</doc>
+          <type name="ConsoleKit" c:type="LibConsoleKit*"/>
+        </return-value>
+      </constructor>
+      <function name="error_quark" c:identifier="lib_consolekit_error_quark">
+        <doc xml:space="preserve">Registers an error quark for #LibConsoleKit if necessary.</doc>
+        <return-value transfer-ownership="none">
+          <doc xml:space="preserve">the error quark used for #LibConsoleKit errors.</doc>
+          <type name="GLib.Quark" c:type="GQuark"/>
+        </return-value>
+      </function>
+      <method name="pid_get_session"
+              c:identifier="lib_consolekit_pid_get_session"
+              version="1.0"
+              throws="1">
+        <doc xml:space="preserve">Returns the session the pid belongs to, if any.
+Free the session string with g_free when finished.</doc>
+        <return-value transfer-ownership="none">
+          <doc xml:space="preserve">TRUE on Success.</doc>
+          <type name="gboolean" c:type="gboolean"/>
+        </return-value>
+        <parameters>
+          <instance-parameter name="ck" transfer-ownership="none">
+            <doc xml:space="preserve">A #LibConsoleKit</doc>
+            <type name="ConsoleKit" c:type="LibConsoleKit*"/>
+          </instance-parameter>
+          <parameter name="pid" transfer-ownership="none">
+            <doc xml:space="preserve">process to query</doc>
+            <type name="gint" c:type="pid_t"/>
+          </parameter>
+          <parameter name="session"
+                     direction="out"
+                     caller-allocates="0"
+                     transfer-ownership="full">
+            <doc xml:space="preserve">The session the pid belongs to</doc>
+            <type name="utf8" c:type="gchar**"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="seat_can_multi_session"
+              c:identifier="lib_consolekit_seat_can_multi_session"
+              version="1.0"
+              throws="1">
+        <doc xml:space="preserve">Returns whether the provided seat is capable of holding multiple sessions
+at any given time.</doc>
+        <return-value transfer-ownership="none">
+          <doc xml:space="preserve">TRUE if capable of multiple sessions.</doc>
+          <type name="gboolean" c:type="gboolean"/>
+        </return-value>
+        <parameters>
+          <instance-parameter name="ck" transfer-ownership="none">
+            <doc xml:space="preserve">A #LibConsoleKit</doc>
+            <type name="ConsoleKit" c:type="LibConsoleKit*"/>
+          </instance-parameter>
+          <parameter name="seat" transfer-ownership="none">
+            <doc xml:space="preserve">The seat to query</doc>
+            <type name="utf8" c:type="const gchar*"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="seat_get_active"
+              c:identifier="lib_consolekit_seat_get_active"
+              version="1.0"
+              throws="1">
+        <doc xml:space="preserve">Returns the session and uid of the user who has the active session on
+the seat, if any session is active. Free the session with g_free when
+done.</doc>
+        <return-value transfer-ownership="none">
+          <doc xml:space="preserve">TRUE on Success.</doc>
+          <type name="gboolean" c:type="gboolean"/>
+        </return-value>
+        <parameters>
+          <instance-parameter name="ck" transfer-ownership="none">
+            <doc xml:space="preserve">A #LibConsoleKit</doc>
+            <type name="ConsoleKit" c:type="LibConsoleKit*"/>
+          </instance-parameter>
+          <parameter name="seat" transfer-ownership="none">
+            <doc xml:space="preserve">The seat to query</doc>
+            <type name="utf8" c:type="const gchar*"/>
+          </parameter>
+          <parameter name="session"
+                     direction="out"
+                     caller-allocates="0"
+                     transfer-ownership="full">
+            <doc xml:space="preserve">The active session, if any</doc>
+            <type name="utf8" c:type="gchar**"/>
+          </parameter>
+          <parameter name="uid"
+                     direction="out"
+                     caller-allocates="0"
+                     transfer-ownership="full"
+                     optional="1"
+                     allow-none="1">
+            <doc xml:space="preserve">The unix user the session belongs to</doc>
+            <type name="guint" c:type="uid_t*"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="seat_get_sessions"
+              c:identifier="lib_consolekit_seat_get_sessions"
+              version="1.0"
+              throws="1">
+        <doc xml:space="preserve">Returns the sessions on the seat. Free the sessions with g_strfreev when done.</doc>
+        <return-value transfer-ownership="none">
+          <doc xml:space="preserve">The number of sessions returned or -1 on failure</doc>
+          <type name="gint" c:type="gint"/>
+        </return-value>
+        <parameters>
+          <instance-parameter name="ck" transfer-ownership="none">
+            <doc xml:space="preserve">A #LibConsoleKit</doc>
+            <type name="ConsoleKit" c:type="LibConsoleKit*"/>
+          </instance-parameter>
+          <parameter name="seat" transfer-ownership="none">
+            <doc xml:space="preserve">The seat to query</doc>
+            <type name="utf8" c:type="const gchar*"/>
+          </parameter>
+          <parameter name="sessions"
+                     direction="out"
+                     caller-allocates="0"
+                     transfer-ownership="full">
+            <doc xml:space="preserve">The sessions on the seat, if any</doc>
+            <array c:type="gchar***">
+              <type name="utf8" c:type="gchar**"/>
+            </array>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="session_get_class"
+              c:identifier="lib_consolekit_session_get_class"
+              version="1.0"
+              throws="1">
+        <doc xml:space="preserve">Returns the class of the provided session. The following classes
+may be returned:
+"user"        - A normal user session, the default
+"greeter"     - Display Manager pseudo session
+"lock-screen" - Screensaver based session
+"background"  - A long running background process that requires its own session
+
+Note: Additional classes may be added in the future. Free the session_class
+string with g_free.</doc>
+        <return-value transfer-ownership="none">
+          <doc xml:space="preserve">TRUE on Success.</doc>
+          <type name="gboolean" c:type="gboolean"/>
+        </return-value>
+        <parameters>
+          <instance-parameter name="ck" transfer-ownership="none">
+            <doc xml:space="preserve">A #LibConsoleKit</doc>
+            <type name="ConsoleKit" c:type="LibConsoleKit*"/>
+          </instance-parameter>
+          <parameter name="session" transfer-ownership="none">
+            <doc xml:space="preserve">The session to query</doc>
+            <type name="utf8" c:type="const gchar*"/>
+          </parameter>
+          <parameter name="session_class"
+                     direction="out"
+                     caller-allocates="0"
+                     transfer-ownership="full">
+            <doc xml:space="preserve">The session's class</doc>
+            <type name="utf8" c:type="gchar**"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="session_get_display"
+              c:identifier="lib_consolekit_session_get_display"
+              version="1.0"
+              throws="1">
+        <doc xml:space="preserve">Returns the display the session has, if any. Free the display string
+with g_free when finished.</doc>
+        <return-value transfer-ownership="none">
+          <doc xml:space="preserve">TRUE on Success.</doc>
+          <type name="gboolean" c:type="gboolean"/>
+        </return-value>
+        <parameters>
+          <instance-parameter name="ck" transfer-ownership="none">
+            <doc xml:space="preserve">A #LibConsoleKit</doc>
+            <type name="ConsoleKit" c:type="LibConsoleKit*"/>
+          </instance-parameter>
+          <parameter name="session" transfer-ownership="none">
+            <doc xml:space="preserve">The session to query</doc>
+            <type name="utf8" c:type="const gchar*"/>
+          </parameter>
+          <parameter name="display"
+                     direction="out"
+                     caller-allocates="0"
+                     transfer-ownership="full">
+            <doc xml:space="preserve">The X11 display the session owns</doc>
+            <type name="utf8" c:type="gchar**"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="session_get_remote_host"
+              c:identifier="lib_consolekit_session_get_remote_host"
+              version="1.0"
+              throws="1">
+        <doc xml:space="preserve">Returns the hostname of the remote session the session has, if any.
+Free the remote_host string with g_free when finished.</doc>
+        <return-value transfer-ownership="none">
+          <doc xml:space="preserve">TRUE on Success.</doc>
+          <type name="gboolean" c:type="gboolean"/>
+        </return-value>
+        <parameters>
+          <instance-parameter name="ck" transfer-ownership="none">
+            <doc xml:space="preserve">A #LibConsoleKit</doc>
+            <type name="ConsoleKit" c:type="LibConsoleKit*"/>
+          </instance-parameter>
+          <parameter name="session" transfer-ownership="none">
+            <doc xml:space="preserve">The session to query</doc>
+            <type name="utf8" c:type="const gchar*"/>
+          </parameter>
+          <parameter name="remote_host"
+                     direction="out"
+                     caller-allocates="0"
+                     transfer-ownership="full">
+            <doc xml:space="preserve">The remote hostname, if any</doc>
+            <type name="utf8" c:type="gchar**"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="session_get_seat"
+              c:identifier="lib_consolekit_session_get_seat"
+              version="1.0"
+              throws="1">
+        <doc xml:space="preserve">Returns the seat the session belongs to. Free the seat string
+with g_free when finished.</doc>
+        <return-value transfer-ownership="none">
+          <doc xml:space="preserve">TRUE on Success.</doc>
+          <type name="gboolean" c:type="gboolean"/>
+        </return-value>
+        <parameters>
+          <instance-parameter name="ck" transfer-ownership="none">
+            <doc xml:space="preserve">A #LibConsoleKit</doc>
+            <type name="ConsoleKit" c:type="LibConsoleKit*"/>
+          </instance-parameter>
+          <parameter name="session" transfer-ownership="none">
+            <doc xml:space="preserve">The session to query</doc>
+            <type name="utf8" c:type="const gchar*"/>
+          </parameter>
+          <parameter name="seat"
+                     direction="out"
+                     caller-allocates="0"
+                     transfer-ownership="full">
+            <doc xml:space="preserve">The seat the session belongs to</doc>
+            <type name="utf8" c:type="gchar**"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="session_get_state"
+              c:identifier="lib_consolekit_session_get_state"
+              version="1.0"
+              throws="1">
+        <doc xml:space="preserve">Returns the current state of the provided session. The following states
+may be returned:
+"online"      - Session is logged in but not active
+"active"      - Session is logged in and active
+"closing"     - Session is in the process of shutting down
+
+Note: Additional states may be added in the future. Free the state
+string with g_free.</doc>
+        <return-value transfer-ownership="none">
+          <doc xml:space="preserve">TRUE on Success.</doc>
+          <type name="gboolean" c:type="gboolean"/>
+        </return-value>
+        <parameters>
+          <instance-parameter name="ck" transfer-ownership="none">
+            <doc xml:space="preserve">A #LibConsoleKit</doc>
+            <type name="ConsoleKit" c:type="LibConsoleKit*"/>
+          </instance-parameter>
+          <parameter name="session" transfer-ownership="none">
+            <doc xml:space="preserve">The session to query</doc>
+            <type name="utf8" c:type="const gchar*"/>
+          </parameter>
+          <parameter name="state"
+                     direction="out"
+                     caller-allocates="0"
+                     transfer-ownership="full">
+            <doc xml:space="preserve">The session's state</doc>
+            <type name="utf8" c:type="gchar**"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="session_get_tty"
+              c:identifier="lib_consolekit_session_get_tty"
+              version="1.0"
+              throws="1">
+        <doc xml:space="preserve">Returns the tty the session has, if any.
+Free the tty string with g_free when finished.</doc>
+        <return-value transfer-ownership="none">
+          <doc xml:space="preserve">TRUE on Success.</doc>
+          <type name="gboolean" c:type="gboolean"/>
+        </return-value>
+        <parameters>
+          <instance-parameter name="ck" transfer-ownership="none">
+            <doc xml:space="preserve">A #LibConsoleKit</doc>
+            <type name="ConsoleKit" c:type="LibConsoleKit*"/>
+          </instance-parameter>
+          <parameter name="session" transfer-ownership="none">
+            <doc xml:space="preserve">The session to query</doc>
+            <type name="utf8" c:type="const gchar*"/>
+          </parameter>
+          <parameter name="tty"
+                     direction="out"
+                     caller-allocates="0"
+                     transfer-ownership="full">
+            <doc xml:space="preserve">The tty attached to the session</doc>
+            <type name="utf8" c:type="gchar**"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="session_get_type"
+              c:identifier="lib_consolekit_session_get_type"
+              version="1.0"
+              throws="1">
+        <doc xml:space="preserve">Returns the display type of the provided session. The following types
+may be returned:
+"x11"         - An X11/Xorg based session
+"wayland"     - A Wayland based session
+"tty"         - A text console based session
+"mir"         - A session using the Mir display server
+"unspecified" - Unknown session type.
+
+Note: Additional types may be added in the future. Free the type
+string with g_free.</doc>
+        <return-value transfer-ownership="none">
+          <doc xml:space="preserve">TRUE on Success.</doc>
+          <type name="gboolean" c:type="gboolean"/>
+        </return-value>
+        <parameters>
+          <instance-parameter name="ck" transfer-ownership="none">
+            <doc xml:space="preserve">A #LibConsoleKit</doc>
+            <type name="ConsoleKit" c:type="LibConsoleKit*"/>
+          </instance-parameter>
+          <parameter name="session" transfer-ownership="none">
+            <doc xml:space="preserve">The session to query</doc>
+            <type name="utf8" c:type="const gchar*"/>
+          </parameter>
+          <parameter name="type"
+                     direction="out"
+                     caller-allocates="0"
+                     transfer-ownership="full">
+            <doc xml:space="preserve">The session's display type</doc>
+            <type name="utf8" c:type="gchar**"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="session_get_uid"
+              c:identifier="lib_consolekit_session_get_uid"
+              version="1.0"
+              throws="1">
+        <doc xml:space="preserve">Returns the unix user who owns the session.</doc>
+        <return-value transfer-ownership="none">
+          <doc xml:space="preserve">TRUE on Success.</doc>
+          <type name="gboolean" c:type="gboolean"/>
+        </return-value>
+        <parameters>
+          <instance-parameter name="ck" transfer-ownership="none">
+            <doc xml:space="preserve">A #LibConsoleKit</doc>
+            <type name="ConsoleKit" c:type="LibConsoleKit*"/>
+          </instance-parameter>
+          <parameter name="session" transfer-ownership="none">
+            <doc xml:space="preserve">The session to query</doc>
+            <type name="utf8" c:type="const gchar*"/>
+          </parameter>
+          <parameter name="uid"
+                     direction="out"
+                     caller-allocates="0"
+                     transfer-ownership="full">
+            <doc xml:space="preserve">unix-user who owns the session</doc>
+            <type name="guint" c:type="uid_t*"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="session_get_vt"
+              c:identifier="lib_consolekit_session_get_vt"
+              version="1.0"
+              throws="1">
+        <doc xml:space="preserve">Returns the VT the session is on, if any.</doc>
+        <return-value transfer-ownership="none">
+          <doc xml:space="preserve">TRUE on Success.</doc>
+          <type name="gboolean" c:type="gboolean"/>
+        </return-value>
+        <parameters>
+          <instance-parameter name="ck" transfer-ownership="none">
+            <doc xml:space="preserve">A #LibConsoleKit</doc>
+            <type name="ConsoleKit" c:type="LibConsoleKit*"/>
+          </instance-parameter>
+          <parameter name="session" transfer-ownership="none">
+            <doc xml:space="preserve">The session to query</doc>
+            <type name="utf8" c:type="const gchar*"/>
+          </parameter>
+          <parameter name="vt"
+                     direction="out"
+                     caller-allocates="0"
+                     transfer-ownership="full">
+            <doc xml:space="preserve">The VT of the session, if any</doc>
+            <type name="guint" c:type="guint*"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="session_is_active"
+              c:identifier="lib_consolekit_session_is_active"
+              version="1.0"
+              throws="1">
+        <doc xml:space="preserve">Returns whether the provided session is active.</doc>
+        <return-value transfer-ownership="none">
+          <doc xml:space="preserve">TRUE if the session is active.</doc>
+          <type name="gboolean" c:type="gboolean"/>
+        </return-value>
+        <parameters>
+          <instance-parameter name="ck" transfer-ownership="none">
+            <doc xml:space="preserve">A #LibConsoleKit</doc>
+            <type name="ConsoleKit" c:type="LibConsoleKit*"/>
+          </instance-parameter>
+          <parameter name="session" transfer-ownership="none">
+            <doc xml:space="preserve">The session to query</doc>
+            <type name="utf8" c:type="const gchar*"/>
+          </parameter>
+        </parameters>
+      </method>
+      <method name="session_is_remote"
+              c:identifier="lib_consolekit_session_is_remote"
+              version="1.0"
+              throws="1">
+        <doc xml:space="preserve">Returns whether the provided session is remote.</doc>
+        <return-value transfer-ownership="none">
+          <doc xml:space="preserve">TRUE if the session is remote, FALSE if local. Defaults to TRUE on error.</doc>
+          <type name="gboolean" c:type="gboolean"/>
+        </return-value>
+        <parameters>
+          <instance-parameter name="ck" transfer-ownership="none">
+            <doc xml:space="preserve">A #LibConsoleKit</doc>
+            <type name="ConsoleKit" c:type="LibConsoleKit*"/>
+          </instance-parameter>
+          <parameter name="session" transfer-ownership="none">
+            <doc xml:space="preserve">The session to query</doc>
+            <type name="utf8" c:type="const gchar*"/>
+          </parameter>
+        </parameters>
+      </method>
+    </class>
+    <record name="ConsoleKitClass"
+            c:type="LibConsoleKitClass"
+            glib:is-gtype-struct-for="ConsoleKit">
+      <field name="parent_class">
+        <type name="GObject.ObjectClass" c:type="GObjectClass"/>
+      </field>
+    </record>
+    <enumeration name="ConsoleKitError" c:type="LibConsoleKitError">
+      <doc xml:space="preserve">Describes errors that may result from operations involving a #LibConsoleKit.</doc>
+      <member name="failed" value="0" c:identifier="CONSOLEKIT_ERROR_FAILED">
+        <doc xml:space="preserve">unknown or unclassified error</doc>
+      </member>
+      <member name="invalid_input"
+              value="1"
+              c:identifier="CONSOLEKIT_ERROR_INVALID_INPUT">
+        <doc xml:space="preserve">the variable passed into the calling function is invalid.</doc>
+      </member>
+    </enumeration>
+  </namespace>
+</repository>

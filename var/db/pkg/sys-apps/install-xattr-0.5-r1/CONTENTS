@@ -1,0 +1,3 @@
+dir /usr
+dir /usr/bin
+obj /usr/bin/install-xattr 8273794fe2bcb75076f960369faaabb1 1519782266

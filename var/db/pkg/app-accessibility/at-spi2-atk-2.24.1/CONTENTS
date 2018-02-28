@@ -1,0 +1,23 @@
+dir /usr
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/at-spi2-atk-2.24.1
+obj /usr/share/doc/at-spi2-atk-2.24.1/NEWS.bz2 3eca2c229f2db23e3d5d21fd4c18f045 1519793131
+obj /usr/share/doc/at-spi2-atk-2.24.1/AUTHORS.bz2 b7d3a4c9adfd0ddfc3823b71e772dc8c 1519793131
+obj /usr/share/doc/at-spi2-atk-2.24.1/README.bz2 2ce33b9bdd2ad276ecdd3b1588656dee 1519793131
+dir /usr/include
+dir /usr/include/at-spi2-atk
+dir /usr/include/at-spi2-atk/2.0
+obj /usr/include/at-spi2-atk/2.0/atk-bridge.h 1b948e1186e737eac7fe7fe68be9760b 1519793130
+dir /usr/lib64
+obj /usr/lib64/libatk-bridge-2.0.so.0.0.0 7231d00021ad903e6b96578d2fe97dd8 1519793131
+dir /usr/lib64/pkgconfig
+obj /usr/lib64/pkgconfig/atk-bridge-2.0.pc 383cb8bfae771dc8ccb537225a909713 1519793130
+dir /usr/lib64/gnome-settings-daemon-3.0
+dir /usr/lib64/gnome-settings-daemon-3.0/gtk-modules
+obj /usr/lib64/gnome-settings-daemon-3.0/gtk-modules/at-spi2-atk.desktop 34900bd11562f427776ed2c05ba6002d 1519793130
+dir /usr/lib64/gtk-2.0
+dir /usr/lib64/gtk-2.0/modules
+obj /usr/lib64/gtk-2.0/modules/libatk-bridge.so def8e0082eedb36c33b731602846763a 1519793131
+sym /usr/lib64/libatk-bridge-2.0.so -> libatk-bridge-2.0.so.0.0.0 1519793130
+sym /usr/lib64/libatk-bridge-2.0.so.0 -> libatk-bridge-2.0.so.0.0.0 1519793130

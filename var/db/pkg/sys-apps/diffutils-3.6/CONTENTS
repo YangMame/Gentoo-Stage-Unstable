@@ -1,0 +1,27 @@
+dir /usr
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/diffutils-3.6
+obj /usr/share/doc/diffutils-3.6/TODO.bz2 088502ce50a6c1280a770d1c1271dbee 1519794503
+obj /usr/share/doc/diffutils-3.6/THANKS.bz2 0e7c4422877406e52083105d7f021c6e 1519794503
+obj /usr/share/doc/diffutils-3.6/README.bz2 68bc86d026115bec3df2188a2bf0a11b 1519794503
+obj /usr/share/doc/diffutils-3.6/NEWS.bz2 b886944eae66ba535361ee5e2f686d14 1519794503
+obj /usr/share/doc/diffutils-3.6/ChangeLog.bz2 ffd414972ca3262a28a580dbb0190f94 1519794503
+obj /usr/share/doc/diffutils-3.6/AUTHORS.bz2 4c6aba1bf7288242f838c79f9ca1cb04 1519794503
+dir /usr/share/locale
+dir /usr/share/locale/zh_CN
+dir /usr/share/locale/zh_CN/LC_MESSAGES
+obj /usr/share/locale/zh_CN/LC_MESSAGES/diffutils.mo 70b42babb5e707a94c9998a786506a18 1519794503
+dir /usr/share/man
+dir /usr/share/man/man1
+obj /usr/share/man/man1/sdiff.1.bz2 42ed4ad8d769846555e807c2df82e254 1519794503
+obj /usr/share/man/man1/diff3.1.bz2 4ac30607b16ca48b3a65da2a1dcbb687 1519794503
+obj /usr/share/man/man1/diff.1.bz2 3165a214c6a594c4f31197363b366fad 1519794503
+obj /usr/share/man/man1/cmp.1.bz2 42ceb935ebd655e10aa25b225bbc3023 1519794503
+dir /usr/share/info
+obj /usr/share/info/diffutils.info.bz2 15a040eb400ec855c722847c17e9002e 1519794503
+dir /usr/bin
+obj /usr/bin/diff 86d5a34f308e8362dd9b181135d33479 1519794503
+obj /usr/bin/cmp c1e0b5e87f7d2d7e3cec4becc5bdc31e 1519794503
+obj /usr/bin/sdiff dce892fa22e4f12e47f8efc2e648ea11 1519794503
+obj /usr/bin/diff3 0a0eedd71fca1cb9a04a66310fc78cc3 1519794503

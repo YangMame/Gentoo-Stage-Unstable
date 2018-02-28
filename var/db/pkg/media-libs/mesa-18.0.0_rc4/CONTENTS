@@ -1,0 +1,56 @@
+dir /etc
+obj /etc/drirc 47b008d9767a09e40c2df7f151c309ba 1519791768
+dir /usr
+dir /usr/share
+dir /usr/share/mesa
+obj /usr/share/mesa/eselect-mesa.conf 78b6ec14e8fe332b892eb0041faaaefb 1519791771
+dir /usr/share/doc
+dir /usr/share/doc/mesa-18.0.0_rc4
+obj /usr/share/doc/mesa-18.0.0_rc4/patents.txt.bz2 e57575862c0adeab1c3e82adf07c88c3 1519791771
+dir /usr/lib64
+obj /usr/lib64/libgbm.so.1.0.0 0d26018cd51295593e8cecbff4ffc6a5 1519791771
+obj /usr/lib64/libGL.so.1.2.0 ae588e7f81a6d60da43fc6db1695f503 1519791771
+obj /usr/lib64/libEGL.so.1.0.0 6f7d00fc159b40298c1af1d4fafb2c7b 1519791771
+obj /usr/lib64/libglapi.so.0.0.0 44779927005f0b6260442a71d77ac222 1519791771
+dir /usr/lib64/mesa
+obj /usr/lib64/mesa/swrast_dri.so 1882e653743c8e875790fd64ea22be6f 1519791772
+obj /usr/lib64/mesa/swrastg_dri.so 9151cce5c7e1cb487e8af665146b7e80 1519791771
+obj /usr/lib64/mesa/kms_swrast_dri.so 9151cce5c7e1cb487e8af665146b7e80 1519791771
+obj /usr/lib64/mesa/i965_dri.so 1882e653743c8e875790fd64ea22be6f 1519791772
+sym /usr/lib64/libEGL.so -> libEGL.so.1.0.0 1519791769
+sym /usr/lib64/libEGL.so.1 -> libEGL.so.1.0.0 1519791769
+sym /usr/lib64/libgbm.so -> libgbm.so.1.0.0 1519791769
+sym /usr/lib64/libgbm.so.1 -> libgbm.so.1.0.0 1519791769
+sym /usr/lib64/libGL.so -> libGL.so.1.2.0 1519791769
+sym /usr/lib64/libGL.so.1 -> libGL.so.1.2.0 1519791769
+dir /usr/lib64/dri
+sym /usr/lib64/dri/swrastg_dri.so -> ../mesa/swrastg_dri.so 1519791770
+sym /usr/lib64/dri/kms_swrast_dri.so -> ../mesa/kms_swrast_dri.so 1519791770
+obj /usr/lib64/dri/.keep_media-libs_mesa-0 d41d8cd98f00b204e9800998ecf8427e 1519791770
+sym /usr/lib64/libglapi.so -> libglapi.so.0.0.0 1519791768
+sym /usr/lib64/libglapi.so.0 -> libglapi.so.0.0.0 1519791768
+dir /usr/lib64/pkgconfig
+obj /usr/lib64/pkgconfig/dri.pc b12fe7ddeb97b849c8b05dd6ff3c4627 1519791770
+obj /usr/lib64/pkgconfig/egl.pc 8fd39e85ff152aca6306c86f58890e34 1519791769
+obj /usr/lib64/pkgconfig/gbm.pc 46a7b3598cb527edc58b06be692b9169 1519791769
+obj /usr/lib64/pkgconfig/gl.pc ebf723980b961ea67fc542ad2025844e 1519791768
+dir /usr/include
+dir /usr/include/EGL
+obj /usr/include/EGL/eglplatform.h 9a4cd44bb689c68a23f33fa84fee8f52 1519791769
+obj /usr/include/EGL/eglmesaext.h bec4b436dec7c1e765e1c4bca82e935f 1519791769
+obj /usr/include/EGL/eglextchromium.h 99cc2d5269c8d9b437c2e69de8bfdd29 1519791769
+obj /usr/include/EGL/egl.h 647e0537660f4954f8f48faeb03c6928 1519791769
+obj /usr/include/EGL/eglext.h 859be94ccbd0285ef5dacec4fcc12036 1519791769
+obj /usr/include/gbm.h 40553d112d73bfadea1762217a692fb9 1519791769
+dir /usr/include/KHR
+obj /usr/include/KHR/khrplatform.h b236dcac248a45771b1d6039e3377b4d 1519791768
+dir /usr/include/GL
+dir /usr/include/GL/internal
+obj /usr/include/GL/internal/dri_interface.h 165717c9d7e33eb776cc1ee16f2c792c 1519791770
+obj /usr/include/GL/gl_mangle.h 05995aa8c64d07f60e32d9c51e6d3471 1519791768
+obj /usr/include/GL/glcorearb.h 30d416c33220c8ef93c30f40732a6a30 1519791768
+obj /usr/include/GL/glext.h 8b401ce3041dbfc6cdc103dd9fb1eea0 1519791768
+obj /usr/include/GL/gl.h 13f47c3da9a1467593c1ad991b181024 1519791768
+obj /usr/include/GL/glx_mangle.h 52be9ea917136374ef6963ef47ee349f 1519791768
+obj /usr/include/GL/glxext.h 08a1bc73dee96833f8d29c632222904d 1519791768
+obj /usr/include/GL/glx.h 7a5ea41701fccb5d72a317bf8c2ea597 1519791768

@@ -1,0 +1,21 @@
+dir /usr
+dir /usr/share
+dir /usr/share/doc
+dir /usr/share/doc/glfw-3.2.1
+obj /usr/share/doc/glfw-3.2.1/README.md.bz2 fadc8c76901d8e7449ea1daf9f4373c4 1519791808
+dir /usr/lib64
+obj /usr/lib64/libglfw.so.3.2 b2412dbb56df395d117d0dc8fd833f47 1519791809
+sym /usr/lib64/libglfw.so.3 -> libglfw.so.3.2 1519791808
+dir /usr/lib64/pkgconfig
+obj /usr/lib64/pkgconfig/glfw3.pc 2713502550ff274da324acea496cab58 1519791803
+dir /usr/lib64/cmake
+dir /usr/lib64/cmake/glfw3
+obj /usr/lib64/cmake/glfw3/glfw3Targets-gentoo.cmake e727b254c6010f74ff5c4ee9deda430b 1519791803
+obj /usr/lib64/cmake/glfw3/glfw3Targets.cmake b6ceec3783e77754da1e01f22395b0c3 1519791803
+obj /usr/lib64/cmake/glfw3/glfw3ConfigVersion.cmake 7ed6cb2434df117d75ebb1e0f93ac563 1519791803
+obj /usr/lib64/cmake/glfw3/glfw3Config.cmake 40d867b1b89b5676a65f7fd1e28f121a 1519791803
+dir /usr/include
+dir /usr/include/GLFW
+obj /usr/include/GLFW/glfw3native.h 8b5d0872ded256bb77544c77e570a498 1471519947
+obj /usr/include/GLFW/glfw3.h d445ce12f38aaa3ba841293ac30d5dc9 1471519947
+sym /usr/lib64/libglfw.so -> libglfw.so.3 1519791808
