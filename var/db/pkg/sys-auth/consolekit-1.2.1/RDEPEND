@@ -1,1 +1,0 @@
->=dev-libs/glib-2.40:2/2=[dbus] >=sys-devel/gettext-0.19 sys-apps/dbus sys-libs/zlib:0/1= x11-libs/libX11:0/0= sys-apps/acl:0/0= >=virtual/udev-200 virtual/libudev x11-libs/libdrm:0/0= virtual/pam >=sys-auth/polkit-0.110 sys-apps/coreutils[acl]

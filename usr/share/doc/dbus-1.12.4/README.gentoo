@@ -1,2 +1,0 @@
-Some applications require a session bus in addition to the system
-bus. Please see `man dbus-launch` for more information.

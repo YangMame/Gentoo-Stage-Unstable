@@ -1,8 +1,0 @@
-prefix=/usr
-libdir=${prefix}/lib64
-includedir=${prefix}/include
-
-Name: dri3proto
-Description: dri3proto headers
-Version: 1.0
-Cflags: -I${includedir}

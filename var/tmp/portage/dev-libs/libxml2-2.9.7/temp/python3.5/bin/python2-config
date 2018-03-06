@@ -1,3 +1,0 @@
-#!/bin/sh
-echo ": python_wrapper_setup: python2-config is not supported by python3.5 (PYTHON_COMPAT)" >&2
-exit 127

@@ -1,5 +1,0 @@
-/usr/lib64/libgdbm.so.5.0.0 libc.so.6,ld-linux-x86-64.so.2
-/usr/lib64/libgdbm_compat.so.4.0.0 libgdbm.so.5,libc.so.6
-/usr/bin/gdbm_dump libgdbm.so.5,libc.so.6
-/usr/bin/gdbm_load libgdbm.so.5,libc.so.6
-/usr/bin/gdbmtool libgdbm.so.5,libreadline.so.7,libc.so.6

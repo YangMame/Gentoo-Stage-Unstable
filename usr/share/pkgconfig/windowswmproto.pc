@@ -1,8 +1,0 @@
-prefix=/usr
-libdir=${prefix}/lib64
-includedir=${prefix}/include
-
-Name: windowswmproto
-Description: windowswmproto headers
-Version: 1.0.4
-Cflags: -I${includedir}

@@ -1,2 +1,0 @@
-QCONFIG_ADD= gtk3
-QCONFIG_REMOVE= no-widgets

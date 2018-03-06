@@ -1,4 +1,0 @@
-configure.ac:5:AC_CONFIG_HEADERS:config.h
-configure.ac:7:AC_CONFIG_MACRO_DIR:m4
-configure.ac:53:AM_INIT_AUTOMAKE:libxml2:$VERSION
-configure.ac:74:LT_INIT:

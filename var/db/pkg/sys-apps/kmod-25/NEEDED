@@ -1,2 +1,0 @@
-/bin/kmod libz.so.1,libc.so.6
-/lib64/libkmod.so.2.3.3 libz.so.1,libc.so.6

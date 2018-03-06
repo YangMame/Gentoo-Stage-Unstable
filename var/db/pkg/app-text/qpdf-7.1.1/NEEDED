@@ -1,3 +1,0 @@
-/usr/lib64/libqpdf.so.18.2.1 libjpeg.so.62,libz.so.1,libstdc++.so.6,libm.so.6,libc.so.6,libgcc_s.so.1
-/usr/bin/zlib-flate libqpdf.so.18,libstdc++.so.6,libgcc_s.so.1,libc.so.6
-/usr/bin/qpdf libqpdf.so.18,libstdc++.so.6,libgcc_s.so.1,libc.so.6

@@ -1,1 +1,0 @@
->=sys-apps/util-linux-2.20 >=dev-libs/gobject-introspection-1.38 >=sys-apps/kmod-16 !<sys-libs/glibc-2.11 !sys-apps/gentoo-systemd-integration !sys-apps/systemd !<sys-fs/lvm2-2.02.103 !<sec-policy/selinux-base-2.20120725-r10 !sys-fs/udev !sys-apps/systemd

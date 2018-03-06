@@ -1,8 +1,0 @@
-dir /usr
-dir /usr/share
-dir /usr/share/doc
-dir /usr/share/doc/gnuconfig-20180101
-obj /usr/share/doc/gnuconfig-20180101/ChangeLog.bz2 d82581ebaf2444d77a838412c1a18a4d 1519782177
-dir /usr/share/gnuconfig
-obj /usr/share/gnuconfig/config.guess b543face1d134e5d80eabeefd8a4a952 1519782177
-obj /usr/share/gnuconfig/config.sub 562666d373915e86209bd7b3d9da09df 1519782177
